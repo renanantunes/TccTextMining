@@ -1,0 +1,35 @@
+2014-08-18 23:50:43.386 UTC Informações [1] Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-18 23:50:43.387 UTC Informações [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-18 23:50:43.447 UTC Informações [1] Current group size: 0
+2014-08-18 23:50:43.448 UTC Informações [1] New node 1(-1) unknown to rep group
+2014-08-18 23:50:43.449 UTC Informações [1] Master changed to 1
+2014-08-18 23:50:43.449 UTC Informações [1] Nascent group. 1 is master by virtue of being the first node.
+2014-08-18 23:50:43.748 UTC Informações [1] Successfully added node:1(1) HostPort = Renan-PC: 5005 [ELECTABLE]
+2014-08-18 23:50:43.755 UTC Informações [1] Refreshed 0 monitors.
+2014-08-18 23:50:43.763 UTC Informações [1] Node 1 started
+2014-08-18 23:50:43.767 UTC Informações [1] Feeder manager accepting requests.
+2014-08-18 23:50:43.769 UTC Informações [1] Joining group as master
+2014-08-18 23:50:43.771 UTC Informações [1] Refreshed 0 monitors.
+2014-08-19 00:27:01.053 UTC Informações [1] Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-19 00:27:01.053 UTC Informações [1] Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-19 00:27:01.056 UTC Informações [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.056 UTC Informações [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.119 UTC Informações [1] Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [1] Existing node 1 querying for a current master.
+2014-08-19 00:27:01.136 UTC Informações [1] Node 1 started
+2014-08-19 00:27:01.137 UTC Informações [1] Election initiated; election #1
+2014-08-19 00:27:01.137 UTC Informações [1] Election initiated; election #1
+2014-08-19 00:27:01.141 UTC Informações [1] Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:01.141 UTC Informações [1] Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:03.165 UTC Informações [1] Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000002) Value: Value:10.0.0.144$$$5005$$$1$$$1
+2014-08-19 00:27:03.165 UTC Informações [1] Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000002) Value: Value:10.0.0.144$$$5005$$$1$$$1
+2014-08-19 00:27:03.169 UTC Informações [1] Master changed to 1
+2014-08-19 00:27:03.169 UTC Informações [1] Master changed to 1
+2014-08-19 00:27:03.170 UTC Informações [1] Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.170 UTC Informações [1] Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [1] Feeder manager accepting requests.
+2014-08-19 00:27:03.171 UTC Informações [1] Feeder manager accepting requests.
+2014-08-19 00:27:03.173 UTC Informações [1] Election thread exited. Group master: 1(1)
+2014-08-19 00:27:03.173 UTC Informações [1] Election thread exited. Group master: 1(1)
+2014-08-19 00:27:03.174 UTC Informações [1] Joining group as master
+2014-08-19 00:27:03.176 UTC Informações [1] Refreshed 0 monitors.

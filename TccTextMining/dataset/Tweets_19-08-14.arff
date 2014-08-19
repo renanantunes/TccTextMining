@@ -1,0 +1,152 @@
+@relation MyRelation
+
+@attribute id numeric
+@attribute User string
+@attribute tweet string
+@attribute date date yyyy/MM/dd
+
+@data
+5.0185520822668902E17,VictorLouSan,'RT @RodP13: A Globo deu o braço à ditadura e nunca mais largou. Ontem o Jornal Nacional provou só isto, que todos sabem. http://t.co/s0PRM5…',2014/08/19
+5.0185520835634381E17,nah_evelin,'G1 - Antes de cirurgia, criança tosse e expele brinco alojado perto do pulmão - notícias em Acre http://t.co/xtU91Qqypf via @g1',2014/08/19
+5.0185524651650253E17,ninhalapin,'RT @tvfoco: Globo está preocupada com atraso nas gravações de “Império” http://t.co/emIwNilCWn',2014/08/19
+5.018552573923328E17,SHOTSJELIEBER,'perdi o filme q eu ia assistir na globo fui dormir 15 minutos acabei dormindo a tarde inteira',2014/08/19
+5.0185526156527616E17,blogovertime,'Concurso cultural do Corinthians Steamrollers no @blogovertime http://t.co/vJAuCRFDmj',2014/08/19
+5.0185528243232358E17,Rsilvape,'RT @JornalOGlobo: Amanhecer no Aterro do Flamengo, no Rio. Foto: Guilherme Leporace/ Ag. O Globo http://t.co/7eNp6yEpu6',2014/08/19
+5.0185528574164582E17,rafinhalisboa,'RT @andres_knoll: Fla fecha treino, e Lucas Mugni e Arthur disputam vaga de Alecsandro | http://t.co/TSA5rtFb8c http://t.co/ZfTUzY3BIF',2014/08/19
+5.0185528657210163E17,MARCELOMACRAL,'RT @Ezequiasns: Jornal Nacional - Polícia Federal descobre uruguaios e até mortos recebendo Bolsa Família http://t.co/pfK6JakJq4 via @g1',2014/08/19
+5.0185529105580442E17,taiswb,'RT @joaopaulom: Marido de Marina Silva pede exoneração no Governo petista do Acre para se dedicar à campanha  http://t.co/JGVyz4kAvr',2014/08/19
+5.0185529430219162E17,UrsaHaru,'RT @deborista: o estuprador em série foragido e ex-médico Roger Abdelmassih foi preso no Paraguai. http://t.co/2Sm3qXX5IO',2014/08/19
+5.0185529878552166E17,diegomichelb,'G1 - Crocodilo devora pescador no norte da Austrália - notícias em Mundo http://t.co/UUFinNjCg5 via @g1',2014/08/19
+5.0185531979518771E17,gabriel_money,'#sonoesporteinterativo Eu reclamando da globo que coloca jogo pras 22h, e o jogo la comeca as 23h',2014/08/19
+5.0185531957249229E17,geovan122,'Acompanhe ao vivo o jogo Real Madrid x Atlético de Madrid - Supercopa da Espanha no http://t.co/Z41TlyLJCJ http://t.co/l6TLg18Zox',2014/08/19
+5.0185532797826253E17,gcamarotti,'PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185532809990554E17,fiilliippe,'Carai o 247 ta mais nojento do que folha, globo e quiçá o liberta.in juntos.',2014/08/19
+5.0185532841866445E17,Olho_reality,'RT @curlsluab: me perdi aqui, desculpe http://t.co/oDijPh6Fcc http://t.co/8wwcqCyfSz http://t.co/cjh4G29ijV http://t.co/M2IEre9eCc http://t…',2014/08/19
+5.0185534299809382E17,taiswb,'RT @joaopaulom: Marido de Marina Silva pede exoneração no Governo do PT no Acre para se dedicar à campanha do PSB   http://t.co/JGVyz4kAvr …',2014/08/19
+5.018553571203113E17,Bufoparacnemis,'RT @realsardenberg: Desajuste nas contas públicas é maior do que parece http://t.co/JUKFxAPy3x',2014/08/19
+5.0185535913316762E17,EnzoEnzospfc,'Por atraso de salários no Bota, Lucas entra na Justiça e pede a rescisão | http://t.co/KgUd93CZ2C http://t.co/T4Hwo1j7j5',2014/08/19
+5.0185536806323814E17,fernandaeuero,'PT vai à Justiça contra Globo para garantir espaço a Padilha http://t.co/TKeP4kQiSW?',2014/08/19
+5.0185537773948518E17,rahportilla,'RT @Carollfia: Imagina a Megan morando na Gambiarra gente MegaviIsReal eu quero tia globo, faz acontecer rsrs!!',2014/08/19
+5.0185538283139072E17,Jean_PFO,'RT @marisascruz: GOSTOU ELEITOR? RT @ielmomarinho: Jornal Nacional - PFederal descobre uruguaios e até mortos recebendo BFamília http://t.c…',2014/08/19
+5.0185538650978304E17,Nego_bom_hp,'RT @eduardonino: @gojammaj #Dilma13DeNovo ELEITOR DENUNCIA GLOBO POR PERSEGUIÇÃO A DILMA #GloboPersegueDilma http://t.co/GkO6RfdiGv http://…',2014/08/19
+5.0185540407971021E17,lovateezer,'@GEEEZERS falaram no jornal do almoço e no globo esporte #votedemilovato',2014/08/19
+5.0185544440375706E17,LucianoGuedes15,'RT @tmlyra: @Doce_Vicio @stanleyburburin. @realwbonner se acha.Ontem abri uma exceção liguei a Globo e desliguei depois. Eu e milhares q nã…',2014/08/19
+5.0185545825334067E17,MeganLoveDavi,'RT @Carollfia: Imagina a Megan morando na Gambiarra gente MegaviIsReal eu quero tia globo, faz acontecer rsrs!!',2014/08/19
+5.0185546890689331E17,ediporios,'Desespero! RT\"@ultimosegundo: PT vai à Justiça contra Globo para garantir espaço a Padilha http://t.co/D671elC9Do\"',2014/08/19
+5.0185547364185702E17,Florosilva,'G1 entrevista Cássio Cunha Lima, PSDB http://t.co/0gCZFa4ORi',2014/08/19
+5.0185547816333722E17,DenisSilvaAM,'O ator sueco e a sonegação da Globo http://t.co/6qmi4uIBfn',2014/08/19
+5.0185549143448781E17,VpgTina,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185549306986906E17,ViniDiesel7,'Real volta muito melhor para o segundo tempo. A partida melhora! http://t.co/6hkIHPjodu',2014/08/19
+5.0185549686612378E17,pancccake,'@orkutparasempre achei: http://t.co/QoF60lWQmp',2014/08/19
+5.0185549765044634E17,3latinhas,'Os comunistas do posto nove querwm botar na globo a culpa do pt. Muita canalhice.',2014/08/19
+5.0185549767522304E17,raulccm,'E ainda botaram a imagem do Bonner para falar da sonegação de impostos da Globo.\nCARA, C4R4',2014/08/19
+5.018555026374656E17,taynara_mb,'Globo aqui (que não é HD) tá desde ontem à noite no formato do HD, com barra preta em cima e embaixo da imagem. Alguém sabe por quê?',2014/08/19
+5.0185550798483866E17,19200_Gilson,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/cyr9sux7GH',2014/08/19
+5.0185551776595558E17,lucaskaldas,'Candidato Rui Costa é o entrevistado do BATV http://t.co/dUFOkJRb4Q #governo2014 #eleições2014',2014/08/19
+5.0185551796345651E17,carlosffrank,'@nedicr56 Parece a história de Globo,parida do estupro dos milicos na democracia.',2014/08/19
+5.0185552329823027E17,AVozdoSofredor,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/bkLdmm7lJR',2014/08/19
+5.018555237348352E17,ThiagoGarciaTG,'Lindberg Farias na globo... Ele não deixa a entrevistadora falar.. \n\nTa muito difícil... O governo público é... http://t.co/3RLHlgfzUm',2014/08/19
+5.0185553177532006E17,joseaecio,'O corte da TV Globo no jornal local do RN TV agora à noite foi brusco. Na base do \"corta pra mim\".',2014/08/19
+5.0185553178331955E17,MiguelNNeto,'Acompanhe ao vivo o jogo Real Madrid x Atlético de Madrid - Supercopa da Espanha no http://t.co/cRqMZlhvWX http://t.co/goh8A6p50g',2014/08/19
+5.0185553218595226E17,Academico_Adm,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/hCMiZ9voC2',2014/08/19
+5.0185554475629363E17,Acreuna1,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/b0qOimamKO',2014/08/19
+5.0185555740212019E17,AdelandiaGoias,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/f0ejpP4Gfl',2014/08/19
+5.0185556722937037E17,DivairC,'Gilse_FC fez 55.24 pontos na ultima rodada do #cartolafc http://t.co/1Gs7ivBEyl',2014/08/19
+5.0185556871873331E17,AbyssNine,'RT @acciopotteer: odeio a globo',2014/08/19
+5.0185557071482061E17,Gregorsamsara,'Globo News - Primeiro genocídio do século XX é tema do GloboNews Documento http://t.co/JSFARj0OTN via @g1',2014/08/19
+5.0185558275667968E17,AguaFriadeGoias,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/K4C7RNqrFg',2014/08/19
+5.0185559796103987E17,ggrazigomes,'Lora, ngm te deixa em paz! \'\'Luizianne: \"Fui à Justiça para exibir meu programa\" http://t.co/1DcdPfcO02 via @RevistaEpoca\'\'',2014/08/19
+5.0185560846777958E17,Amigo_online,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/rKpYvWzudJ',2014/08/19
+5.0185563319358259E17,marianalgodoy,'*assistindo tv* *mãe pega o controle* *coloca na globo* *eu saio da sala*',2014/08/19
+5.0185567476753613E17,solangefagunde8,'RT @dinessul: A GLOBO é uma \"DROGA\" NOCIVA PARA O BRASIL e PARA O POVO BRASILEIRO. Muitos, até, já perceberam isso mas não conseguem se lib…',2014/08/19
+5.0185568353322598E17,mariah_clar,'uns cara desse tinha que bater até matar  http://t.co/LgzdR3o2MT via @g1',2014/08/19
+5.018556865702953E17,favaro_abreu,'@ProfRenataOrsi Trabalhador esperou 50 anos para receber indenização. http://t.co/rKj1B1HRKM',2014/08/19
+5.0185568651955405E17,Astro_Global,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/8uRquSCJSh',2014/08/19
+5.0185569251780608E17,Forever_Daniel_,'RT @danielrochaaz: Obrigado por estarem votando em mim aqui http://t.co/Bdjsh8UWQP \nVOCÊS SÃO DEMAISSSS. BJ',2014/08/19
+5.0185570899684557E17,BR_competitivo,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/iRWJE92TxB',2014/08/19
+5.0185571087208448E17,carlosudia,'RT @MirandaSa_: RT @ielmomarinho: JN - Polícia Federal descobre uruguaios e até mortos recebendo Bolsa Família http://t.co/tRdbqsBXbC via @…',2014/08/19
+5.0185571257496371E17,alexmansur,'Em 8 meses, consumimos os recursos naturais de um ano http://t.co/LfStMUXC4K',2014/08/19
+5.0185571620304077E17,dinuccidemello,'@arielpalacios ótimos comentários p/o jornal da globo news 18h',2014/08/19
+5.0185571632009216E17,Atanagildo1015,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/rlFXIRNny1',2014/08/19
+5.018557170964439E17,SEPbeto,'Se todos não tivessem rabo preso seria mto fácil acabar com essa palhaçada entre Globo, gambás , Flamerda e CBF, junta os 18 e fecha com ...',2014/08/19
+5.0185572134528614E17,CrisFariass,'jogo do flamengo nem vai passar na globo af',2014/08/19
+5.0185572500268646E17,MikeGalo13,'RT @polonio68: Acho que a globo/cbf espera o jogo deles (flavela) contra o Galo todo ano, é onde tentam dar uma guinada,lotam maraca e a ar…',2014/08/19
+5.0185572884047462E17,_Nalds,'Galerinha da Globo não ta aliviando com ninguém nessas entrevistas pré-eleição. O da vez foi o Skaf, que não abaixou a cabeça pro Tramontina',2014/08/19
+5.0185574076870246E17,observpolitico,'Fernando Pimentel ( @pimentelminas ) o candidato dos US$ 6 Bilhões em empréstimos sigilosos\nSegredos bilionários http://t.co/XunVlP7QaC',2014/08/19
+5.0185574219515904E17,_Karolynecabral,'RT @CFLuanSantana: Isso que é amoooor! http://t.co/CJSAXyKKic',2014/08/19
+5.0185574610386125E17,NanaErvilha,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185575806641357E17,Forever_Daniel_,'RT @danielrochaaz: Agora Boa Noite e Buenas Noches.\nEstou muito honrado por votarem em mim. Bjs\nhttp://t.co/Bdjsh8UWQP …',2014/08/19
+5.0185576237395558E17,ultima_trombeta,'ASSISTAM....\nEm Israel, com muito trabalho e tecnologia em se plantando tudo dá!\nGlobo Repórter mostra como o deserto em Israel abastece...',2014/08/19
+5.0185576801947648E17,maumau_rasta,'Mas realmente os maluco do EI são infinitamente melhores que os da Globo e da Band, de tv aberta kkkkkkkkkkkkk',2014/08/19
+5.0185577249859584E17,BrasilNegro,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/AHRFpKitNL',2014/08/19
+5.0185578066111283E17,_imandii,'Oq falar sobre essas novelas da globo? /Dudis',2014/08/19
+5.0185578480470835E17,Brasil_Cidadao,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/IUP4QMmr4u',2014/08/19
+5.0185579745052672E17,Brasil_Copa_14,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/UuWxaIxfmY',2014/08/19
+5.0185580005556224E17,styIesattack,'Amanhã surge a pergunta que eueu faço toda semana, \'amanhã já é quarto ou amanhã ainda é quarta?\'. Sexta no globo repórter  #vote5sos',2014/08/19
+5.0185580997472256E17,Brasilemquestao,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/pbbobxSbXk',2014/08/19
+5.0185581258815488E17,Teletwitteiro,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185581622002483E17,Pedro_BMourao,'Fábrica de aplicativos ajuda a transformar uma boa ideia em um software para celular http://t.co/EEryyQBVHS',2014/08/19
+5.0185582268345958E17,Brasilprodutivo,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/PAYTSliir0',2014/08/19
+5.0185582449160602E17,cacarvalho,'RT @gilgiardelli: A @RevistaEpoca fez uma entrevista colaborativa com o CEO do Twitter. http://t.co/aXzKIq8mXw via @bferrari #nota10 http:/…',2014/08/19
+5.0185582577464525E17,minutoaminuto,'MP investiga rede de favorecimento à fuga de Roger Abdelmassih - http://t.co/RdHFYLY6dd http://t.co/iQtaeov9QW',2014/08/19
+5.0185583760257843E17,BrazilQuestion,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/4PIgTyF0CE',2014/08/19
+5.0185583974170214E17,NMach20,'Estudo diz que há mais elefantes africanos sendo mortos do que nascendo http://t.co/PbzCUqEWmX',2014/08/19
+5.0185584599578624E17,NMach20,'Estudo diz que há mais elefantes africanos sendo mortos do que nascendo http://t.co/BSNjKSBnya',2014/08/19
+5.0185585167488205E17,phaeldesouzaa,'@CrisFariass nos smp esperamos passar o jogo na globo.',2014/08/19
+5.0185585501735731E17,benevides_cris,'2014: Marina Silva e a aliança com PSB, entrevista O Globo: http://t.co/uod4Ox4NPB',2014/08/19
+5.0185585796215603E17,benevides_cris,'2014: Marina Silva e a aliança com PSB, entrevista O Globo: http://t.co/yN2zdaoBHS',2014/08/19
+5.0185586040281907E17,Canedense,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/CjwCfaGoeJ',2014/08/19
+5.018558636705833E17,LauraGassert,'@BlueTachihara @CarlyleLuc eu achei engraçada a noticia como se ela insinuasse alguma relação de amizade globo x pt',2014/08/19
+5.0185586939580826E17,fckyeahumbelle,'RT @Carollfia: Imagina a Megan morando na Gambiarra gente MegaviIsReal eu quero tia globo, faz acontecer rsrs!!',2014/08/19
+5.0185587162719027E17,Ernesaks,'RT @cachicorj: OBAMA DIZ: DIFERENÇA ENTRE FORÇAS DE SEGURANÇA E MILITARES DEVEM SER CLARAS #PEC51 já , por uma polícia de  1º mundo http://…',2014/08/19
+5.0185587484382003E17,ConselhoBrasil,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/vwWEHtWsLw',2014/08/19
+5.0185588668853453E17,VotoConsciente_,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/u5JbRQ6Kw5',2014/08/19
+5.018558992131113E17,redtubedokpop,'sdds globo fazendo novelas onde as mulheres saem no tapa de uma maneira agressiva',2014/08/19
+5.0185590735847014E17,marconovanta,'Globo Esporte 05/10/2007 - Flamengo 1 x 0 Sao Paulo\nhttps://t.co/85yJEOZATy',2014/08/19
+5.0185590958142259E17,alicepauletos,'G1 - Polícia mata outro jovem negro no Missouri - notícias em Mundo http://t.co/UE1Mlm1Nh3?? via @greicevitoref',2014/08/19
+5.018559171689513E17,RegiBeta,'RT @vitorslima: Não concordo!!!! http://t.co/Vpc2bhV0',2014/08/19
+5.0185592377458278E17,Cuiaba_Brasil,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/HVUHPy0MBD',2014/08/19
+5.0185592589307904E17,_paulams,'http://t.co/5xGGTP4fJ8 eita porra :O',2014/08/19
+5.0185593004545638E17,kelfrenn,'@acazzo @canalglobonews @LeilaneNeubarth \nSe dependêssemos das Organizações Globo, não saberíamos. http://t.co/mntGBIbhKO',2014/08/19
+5.0185593103948595E17,euglison,'Acompanhe ao vivo o jogo Real Madrid x Atlético de Madrid - Supercopa da Espanha no http://t.co/TOVjKbe3ub http://t.co/uuzVLRtXAG',2014/08/19
+5.0185593308632269E17,hallesclaudio,'RT @LindbergFarias: Acompanhe agora Lindberg #aovivo no RJTV, da TV Globo',2014/08/19
+5.0185593736029798E17,carvalho_dbora,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185594871809229E17,DJMikko_,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/PXv8yf3RFV',2014/08/19
+5.0185595071497011E17,elsonfarias,'Lá vai o Beto.\nTacale pau, Beto! http://t.co/pdTzZEEV0U',2014/08/19
+5.0185596157782835E17,Deliriosdabola,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/pLcYefMTiG',2014/08/19
+5.0185596829328998E17,geojorgel,'De que adianta entrevista da globo?  Nao temos candidato em quem votar mesmo no RJ, MAS TEMOS UM DIREITO OBRIGATÕRIO, MEU VOTO É NULO!',2014/08/19
+5.0185597730647245E17,IcaroVeira09,'Acompanhe ao vivo o jogo Real Madrid x Atlético de Madrid - Supercopa da Espanha no http://t.co/UeSfGQ7CXw http://t.co/Lf6QY3MYKX',2014/08/19
+5.0185598442838835E17,sourmeline,'RT @jocaterron: Meu romance A Tristeza Extraordinária do Leopardo-das-Neves é finalista do Prêmio São Paulo de Literatura: http://t.co/xOOR…',2014/08/19
+5.0185598647520461E17,Discurso_Brasil,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/nmSufEQODL',2014/08/19
+5.0185598788072243E17,fcnerovieira,'Não, não parece. \nhttp://t.co/8iBkFxBLxT',2014/08/19
+5.0185598808204083E17,_AmandaEleven,'Minha irmã postou uma foto com o Pai ai ganho 36 curtidas ai agora Pai ta achando que ta na globo \' kkkkkk',2014/08/19
+5.0185599646185882E17,benevides_cris,'2014: Marina Silva e a aliança com PSB, entrevista O Globo http://t.co/gq7iRwFzAt',2014/08/19
+5.018559983199191E17,joaopauloff,'Defesa Civil de Santos acha relógio marcando hora da queda de avião http://t.co/uiL4fTv3SK via @g1',2014/08/19
+5.0185599902038835E17,DivulganaredeQB,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/EwkIef8pfi',2014/08/19
+5.0185600019099648E17,benevides_cris,'2014: Marina Silva e a aliança com PSB, entrevista O Globo http://t.co/wWvDAMXOfF',2014/08/19
+5.018560128951255E17,DoceeCabana,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/bOj8hDrJYH',2014/08/19
+5.0185601433000346E17,SEPbeto,'... A Record. Teríamos todas as quartas e domingos, gambás X Flamerda, Flamerda X Gambás na globo',2014/08/19
+5.0185602172414771E17,marcus21061986,'Documento do PSB vai impor a Marina manutenção de alianças de Campos nos estados http://t.co/W4k8O6Gsu3',2014/08/19
+5.0185602239144755E17,taiswb,'RT @joaopaulom: Aécio quer reequipar a PF e colocar mais policiais nas ruas http://t.co/Y4cFvb3bc6 via @g1',2014/08/19
+5.0185602447981363E17,DonaOlgamaria,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/p22x3VzMJF',2014/08/19
+5.0185603771741798E17,DruifVanRob,'Hoje passou \"ela é o cara\" na globo. Channing Tatum ta mt gato nesse filme!',2014/08/19
+5.0185603809030963E17,Dribles_,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/wux0qdETZm',2014/08/19
+5.0185603966738842E17,carioca556,'Telescópio da Nasa capta melhor imagem de um buraco negro já vista http://t.co/e6vmK2qbUl',2014/08/19
+5.0185604190753997E17,fabriciosgomes,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185604976726835E17,ECVitoria_,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/HV67VEoNM9',2014/08/19
+5.0185606233798656E17,roberta_jorn,'RT @gcamarotti: PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/OdkXx351AT',2014/08/19
+5.0185606622189978E17,mvrodrigues,'Espero que Pedro Simon se candidate ao Senado RT @gcamarotti PSB decide indicar Beto Albuquerque para vice de Marina. http://t.co/qhZLtTWTDY',2014/08/19
+5.0185607656466842E17,Jorgecarvalho23,'Bem Estar - Pesquisa diz que 93\% estão insatisfeitos com SUS e saúde privada http://t.co/74IwGMY1hO via @g1',2014/08/19
+5.0185608594771558E17,Buninhaf,'RT @malhanaticos: \"Para levantar audiência de ‘Malhação’, Globo faz Juliana Paiva repetir o papel de Fatinha na trama.\"\nminha idola sinônim…',2014/08/19
+5.0185609129127117E17,CrisFariass,'RT @phaeldesouzaa: @CrisFariass nos smp esperamos passar o jogo na globo.',2014/08/19
+5.0185609770814669E17,itacambiofabio,'Loja em shopping pode ter aluguel variável além do valor fixo pago mensalmente http://t.co/ehQ5ArAEXY #varejo',2014/08/19
+5.018561001450496E17,Esportenoticia_,'Vendo seu candidato naufragar, PT-SP estuda processar a TV Globo para ter cobertura diária de Padi... http://t.co/B6SkhwSAlq',2014/08/19
+5.0185610306428518E17,JulianaScaf,'Grupo radical Estado Islâmico diz ter decapitado jornalista dos EUA - http://t.co/B7Rff5Ghn0 http://t.co/RLjRGKyMYG',2014/08/19
+5.0185610361413632E17,retwitermateus,'RT @EridaRubia: @francisco_erich HOJE VAI PASSAR NA GLOBO SOCIEDADE DOS POETAS MORTTOS!!! PERDO POR NADA!!!!!!!!!!!!!!!!!!',2014/08/19
+5.0185613332656947E17,kalfalists2,'RT @turquim5: Ele avisou...Paulo Henrique Amorim: ”A GLOBO QUER DERRUBAR DILMA ROUSSEFF“. http://t.co/5BlkJoPuo4 Blog @Pocos10 - @ConversaA…',2014/08/19
+5.0185613903082291E17,lucasribeiroweb,'No Portal LRNI: Veja a agenda dos candidatos ao governo do ES nesta quarta, 20 -  http://t.co/qFmfG2RbFq',2014/08/19
+5.0185614269667738E17,taiswb,'RT @joaopaulom: Marido \"cara de mogno\" de Marina pede exoneração no Governo petista do Acre para acompanhá-la na campanha http://t.co/HCMuX…',2014/08/19
+5.0185614299864269E17,lucasribeiroweb,'No Portal LRNI: Vieira da Cunha é entrevistado pelo RBS Notícias; assista ao vídeo -  http://t.co/DxUWkWWL4h',2014/08/19
+5.018561449066496E17,G_Contemporanea,'Ilha vulcânica do Japão pode afundar e criar tsunami, diz estudo\n\nhttp://t.co/BtTyFoLAFt \n\nvia @g1mundo',2014/08/19
+5.0185614665187738E17,lucasribeiroweb,'No Portal LRNI: Veja a agenda dos candidatos ao governo do RN para esta quarta (20) -  http://t.co/0DD9CK5JX0',2014/08/19
+5.0185614778855424E17,RicaPerrone,'Revelada a farsa de Flu x Botafogo, que a Globo armou o resultado. https://t.co/0k9syPcGWk',2014/08/19

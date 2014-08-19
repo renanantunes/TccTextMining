@@ -1,0 +1,35 @@
+2014-08-18 23:50:49.531 UTC Informações [rg1-rn1] Current group size: 0
+2014-08-18 23:50:49.532 UTC Informações [rg1-rn1] New node rg1-rn1(-1) unknown to rep group
+2014-08-18 23:50:49.532 UTC Informações [rg1-rn1] Master changed to rg1-rn1
+2014-08-18 23:50:49.533 UTC Informações [rg1-rn1] Nascent group. rg1-rn1 is master by virtue of being the first node.
+2014-08-18 23:50:49.542 UTC Informações [rg1-rn1] Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-18 23:50:49.544 UTC Informações [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-18 23:50:49.685 UTC Informações [rg1-rn1] Successfully added node:rg1-rn1(1) HostPort = Renan-PC: 5006 [ELECTABLE]
+2014-08-18 23:50:49.687 UTC Informações [rg1-rn1] Refreshed 0 monitors.
+2014-08-18 23:50:49.691 UTC Informações [rg1-rn1] Node rg1-rn1 started
+2014-08-18 23:50:49.692 UTC Informações [rg1-rn1] Feeder manager accepting requests.
+2014-08-18 23:50:49.693 UTC Informações [rg1-rn1] Joining group as master
+2014-08-18 23:50:49.694 UTC Informações [rg1-rn1] Refreshed 0 monitors.
+2014-08-19 00:27:01.053 UTC Informações [rg1-rn1] Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-19 00:27:01.053 UTC Informações [rg1-rn1] Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-19 00:27:01.054 UTC Informações [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.054 UTC Informações [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.119 UTC Informações [rg1-rn1] Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [rg1-rn1] Existing node rg1-rn1 querying for a current master.
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] Node rg1-rn1 started
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] Election initiated; election #1
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] Election initiated; election #1
+2014-08-19 00:27:01.141 UTC Informações [rg1-rn1] Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:01.141 UTC Informações [rg1-rn1] Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:03.165 UTC Informações [rg1-rn1] Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000001) Value: Value:10.0.0.144$$$5006$$$rg1-rn1$$$1
+2014-08-19 00:27:03.165 UTC Informações [rg1-rn1] Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000001) Value: Value:10.0.0.144$$$5006$$$rg1-rn1$$$1
+2014-08-19 00:27:03.169 UTC Informações [rg1-rn1] Master changed to rg1-rn1
+2014-08-19 00:27:03.169 UTC Informações [rg1-rn1] Master changed to rg1-rn1
+2014-08-19 00:27:03.170 UTC Informações [rg1-rn1] Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.170 UTC Informações [rg1-rn1] Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [rg1-rn1] Feeder manager accepting requests.
+2014-08-19 00:27:03.171 UTC Informações [rg1-rn1] Feeder manager accepting requests.
+2014-08-19 00:27:03.172 UTC Informações [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2014-08-19 00:27:03.172 UTC Informações [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2014-08-19 00:27:03.174 UTC Informações [rg1-rn1] Joining group as master
+2014-08-19 00:27:03.176 UTC Informações [rg1-rn1] Refreshed 0 monitors.

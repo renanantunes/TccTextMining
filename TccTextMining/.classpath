@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/avro.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jackson-core-asl.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jackson-mapper-asl.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/je.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-continuation.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-http.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-io.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-security.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-server.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-servlet.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-util.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-webapp.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jetty-xml.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/jline.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/kvcli.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/kvclient.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/kvstore.jar"/>
+	<classpathentry kind="lib" path="lib/Oracle noSql/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/Twitter Framework/twitter4j-core-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/Twitter Framework/twitter4j-stream-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/weka-src.jar"/>
+	<classpathentry kind="lib" path="lib/weka.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

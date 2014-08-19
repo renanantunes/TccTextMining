@@ -1,0 +1,29 @@
+2014-08-18 23:50:40.971 UTC Informações [snaService] Starting, configuration file: .\kvroot\config.xml
+2014-08-18 23:50:41.022 UTC Informações [snaService] Creating a Registry on port Renan-PC:5000 server socket factory:<ClearServerSocketFactory name=main backlog=100 port range=0,0>
+2014-08-18 23:50:41.110 UTC Informações [snaService] Successfully created secure proxy for the storage node agent
+2014-08-18 23:50:41.168 UTC Informações [snaService] Bound to registry port 5000 using name snaService with SSF:null
+2014-08-18 23:50:41.170 UTC Informações [snaService] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2014-08-18 23:50:41.694 UTC Informações [snaService] BootstrapAdmin: Starting AdminService
+2014-08-18 23:50:41.695 UTC Informações [snaService] BootstrapAdmin: Started AdminService
+2014-08-18 23:50:41.696 UTC Informações [snaService] Service status changed from STARTING to WAITING_FOR_DEPLOY
+2014-08-18 23:50:41.714 UTC Informações [snaService] Starting in bootstrap mode
+2014-08-18 23:50:41.714 UTC Informações [snaService] Starting Command service on rmi://Renan-PC:5000/commandService
+2014-08-18 23:50:41.822 UTC Informações [snaService] Successfully created secure proxy for the command service
+2014-08-18 23:50:41.839 UTC Informações [snaService] Starting Web service on port 5001
+2014-08-18 23:50:41.910 UTC Informações [snaService] jetty-7.4.0.v20110414
+2014-08-18 23:50:42.028 UTC Informações [snaService] Extract jar:file:/C:/Users/Renan/workspace/Mining%20Test/lib/Oracle%20noSql/kvstore.jar!/war/KVAdminUI/ to C:\Users\Renan\AppData\Local\Temp\jetty-0.0.0.0-5001-KVAdminUI-_-any-\webapp
+2014-08-18 23:50:42.979 UTC Informações [snaService] NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014-08-18 23:50:43.016 UTC Informações [snaService] started o.e.j.w.WebAppContext{/,file:/C:/Users/Renan/AppData/Local/Temp/jetty-0.0.0.0-5001-KVAdminUI-_-any-/webapp/},jar:file:/C:/Users/Renan/workspace/Mining%20Test/lib/Oracle%20noSql/kvstore.jar!/war/KVAdminUI
+2014-08-18 23:50:43.056 UTC Informações [snaService] Started SelectChannelConnector@0.0.0.0:5001 STARTING
+2014-08-18 23:50:43.057 UTC Informações [snaService] Started AdminService
+2014-08-18 23:50:43.057 UTC Informações [snaService] Thread returning for service BootstrapAdmin.5000
+2014-08-18 23:50:44.379 UTC Informações [snaService] Changing log files to log directory for store kvstore
+2014-08-18 23:50:45.110 UTC Informações [snaService] Register: root: .\kvroot, store: kvstore, hostingAdmin: true
+2014-08-18 23:50:45.110 UTC Informações [snaService] System architecture is amd64
+2014-08-18 23:50:45.110 UTC Informações [snaService] Setting number of CPUs to 4
+2014-08-18 23:50:45.356 UTC Informações [snaService] Starting, configuration file: .\kvroot\config.xml
+2014-08-18 23:50:45.360 UTC Informações [snaService] Registered startup, config file: .\kvroot\kvstore\sn1\config.xml
+2014-08-18 23:50:45.379 UTC Informações [snaService] Changing log files to directory: .\kvroot\kvstore\log
+2014-08-19 00:26:59.163 UTC Informações [snaService] Starting, configuration file: .\kvroot\config.xml
+2014-08-19 00:26:59.180 UTC Informações [snaService] Registered startup, config file: .\kvroot\kvstore\sn1\config.xml
+2014-08-19 00:26:59.212 UTC Informações [snaService] Changing log files to directory: .\kvroot\kvstore\log

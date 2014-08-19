@@ -1,0 +1,41 @@
+2014-08-18 23:50:45.379 UTC Informações [sn1] Starting StorageNodeAgent for kvstore
+2014-08-18 23:50:45.406 UTC Informações [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory name=main backlog=0 port range=0,0> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=321606487 connectMs=10000 readMs=5000>
+2014-08-18 23:50:45.408 UTC Informações [sn1] Started MasterRebalanceThread
+2014-08-18 23:50:45.419 UTC Informações [sn1] Successfully created secure proxy for the storage node agent
+2014-08-18 23:50:45.424 UTC Informações [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory name=main backlog=0 port range=0,0>
+2014-08-18 23:50:45.424 UTC Informações [sn1] Service status changed from STARTING to RUNNING
+2014-08-18 23:50:45.424 UTC Informações [sn1] Started StorageNodeAgent for kvstore
+2014-08-18 23:50:45.840 UTC Informações [sn1] admin1: Creating AdminService
+2014-08-18 23:50:46.076 UTC Informações [sn1] admin1: Created AdminService
+2014-08-18 23:50:48.677 UTC Informações [sn1] rg1-rn1: Creating RepNode
+2014-08-18 23:50:48.920 UTC Informações [sn1] rg1-rn1: Starting RepNode
+2014-08-18 23:50:48.921 UTC Informações [sn1] rg1-rn1: Started RepNode
+2014-08-18 23:50:48.921 UTC Informações [sn1] rg1-rn1: Configuring RepNode
+2014-08-18 23:50:49.755 UTC Informações [sn1] Thread returning for service rg1-rn1
+2014-08-18 23:50:50.082 UTC Informações [sn1] rg1-rn1: Created RepNode
+2014-08-18 23:50:50.765 UTC Informações [sn1] noteState called
+2014-08-18 23:50:50.766 UTC Informações [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 4
+2014-08-18 23:50:50.766 UTC Informações [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 4 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2014-08-18 23:50:50.767 UTC Informações [sn1] Acquiring initial topology from RNs
+2014-08-18 23:50:50.774 UTC Informações [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 4
+2014-08-18 23:51:50.786 UTC Informações [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2014-08-19 00:26:59.215 UTC Informações [sn1] Starting StorageNodeAgent for kvstore
+2014-08-19 00:26:59.217 UTC Informações [sn1] Creating a Registry on port Renan-PC:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2014-08-19 00:26:59.265 UTC Informações [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2014-08-19 00:27:00.092 UTC Informações [sn1] Started MasterRebalanceThread
+2014-08-19 00:27:00.100 UTC Informações [sn1] rg1-rn1: Starting RepNode
+2014-08-19 00:27:00.101 UTC Informações [sn1] rg1-rn1: Started RepNode
+2014-08-19 00:27:00.110 UTC Informações [sn1] admin1: Starting AdminService
+2014-08-19 00:27:00.110 UTC Informações [sn1] admin1: Started AdminService
+2014-08-19 00:27:00.164 UTC Informações [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory name=main backlog=0 port range=0,0> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-1126712913 connectMs=10000 readMs=5000>
+2014-08-19 00:27:00.302 UTC Informações [sn1] Successfully created secure proxy for the storage node agent
+2014-08-19 00:27:00.314 UTC Informações [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory name=main backlog=0 port range=0,0>
+2014-08-19 00:27:00.314 UTC Informações [sn1] Service status changed from STARTING to RUNNING
+2014-08-19 00:27:00.315 UTC Informações [sn1] Started StorageNodeAgent for kvstore
+2014-08-19 00:27:03.608 UTC Informações [sn1] Thread returning for service rg1-rn1
+2014-08-19 00:27:03.608 UTC Informações [sn1] noteState called
+2014-08-19 00:27:03.609 UTC Informações [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 14
+2014-08-19 00:27:03.609 UTC Informações [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 14 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2014-08-19 00:27:03.610 UTC Informações [sn1] Acquiring initial topology from RNs
+2014-08-19 00:27:03.622 UTC Informações [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2014-08-19 00:27:04.956 UTC Informações [sn1] Thread returning for service admin1

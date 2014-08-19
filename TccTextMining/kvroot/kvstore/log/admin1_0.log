@@ -1,0 +1,171 @@
+2014-08-18 23:50:42.788 UTC Informações [admin1] Initializing Admin for store: kvstore
+2014-08-18 23:50:42.790 UTC Informações [admin1] Created new admin environment dir: .\kvroot\kvstore\sn1\admin1\env
+2014-08-18 23:50:42.790 UTC Informações [admin1] JVM Runtime maxMemory (bytes): 907870208
+2014-08-18 23:50:42.792 UTC Informações [admin1] Non-default JE properties for environment: {je.rep.vlsn.logCacheSize=128, je.rep.envUnknownStateTimeout=10 s, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+2014-08-18 23:50:42.854 UTC Informações [admin1] DataChannelFactory: basic
+2014-08-18 23:50:43.161 UTC Informações [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2014-08-18 23:50:43.201 UTC Informações [admin1] JE recovery: REMOVE_TEMP_DBS
+2014-08-18 23:50:43.224 UTC Informações [admin1] JE recovery: CKPT
+2014-08-18 23:50:43.350 UTC Informações [admin1] JE recovery: RECOVERY_FINISHED
+2014-08-18 23:50:43.387 UTC Informações [admin1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-18 23:50:43.387 UTC Informações [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-18 23:50:43.448 UTC Informações [admin1] JE: Current group size: 0
+2014-08-18 23:50:43.448 UTC Informações [admin1] JE: New node 1(-1) unknown to rep group
+2014-08-18 23:50:43.449 UTC Informações [admin1] JE: Master changed to 1
+2014-08-18 23:50:43.449 UTC Informações [admin1] JE: Nascent group. 1 is master by virtue of being the first node.
+2014-08-18 23:50:43.748 UTC Informações [admin1] JE: Successfully added node:1(1) HostPort = Renan-PC: 5005 [ELECTABLE]
+2014-08-18 23:50:43.755 UTC Informações [admin1] JE: Refreshed 0 monitors.
+2014-08-18 23:50:43.763 UTC Informações [admin1] JE recovery: BECOME_CONSISTENT
+2014-08-18 23:50:43.763 UTC Informações [admin1] JE: Node 1 started
+2014-08-18 23:50:43.767 UTC Informações [admin1] JE: Feeder manager accepting requests.
+2014-08-18 23:50:43.770 UTC Informações [admin1] JE: Joining group as master
+2014-08-18 23:50:43.771 UTC Informações [admin1] JE: Refreshed 0 monitors.
+2014-08-18 23:50:43.774 UTC Informações [admin1] State change event: Mon Aug 18 20:50:43 BRT 2014, State: MASTER, Master: 1
+2014-08-18 23:50:43.790 UTC Informações [admin1] Initializing Admin Schema to schema version 3/NoSQL DB 12cR1.3.0.5 2014-03-27 09:58:33 UTC  Build id: cc4ac0e66407
+2014-08-18 23:50:43.911 UTC Informações [admin1] Shutting down monitor collector
+2014-08-18 23:50:44.005 UTC Informações [admin1] Initializing Admin database
+2014-08-18 23:50:44.151 UTC Informações [admin1] Admin database initialized
+2014-08-18 23:50:44.379 UTC Informações [admin1] Replicated environment handle established. Cache size: 544722124, State: MASTER
+2014-08-18 23:50:44.380 UTC Informações [admin1] Configured Admin for store: kvstore
+2014-08-18 23:50:44.778 UTC Informações [admin1] Plan 1[Deploy KVLite] approved
+2014-08-18 23:50:44.791 UTC Informações [admin1] Plan 1[Deploy KVLite]: started, 1 tasks
+2014-08-18 23:50:44.868 UTC Informações [admin1] Plan 1[Deploy KVLite]: task 1 [DeployDatacenter zone=KVLite] started
+2014-08-18 23:50:44.900 UTC Informações [admin1] Plan 1[Deploy KVLite]: task 1 [DeployDatacenter zone=KVLite] ended, state=SUCCEEDED
+2014-08-18 23:50:44.956 UTC Informações [admin1] Plan 1[Deploy KVLite]: ended, state=SUCCEEDED
+2014-08-18 23:50:44.956 UTC Informações [admin1] awaitPlan of Plan 1[Deploy KVLite] finished, state=SUCCEEDED
+2014-08-18 23:50:45.077 UTC Informações [admin1] Plan 2[Deploy Storage Node] approved
+2014-08-18 23:50:45.078 UTC Informações [admin1] Plan 2[Deploy Storage Node]: started, 1 tasks
+2014-08-18 23:50:45.100 UTC Informações [admin1] Plan 2[Deploy Storage Node]: task 1 [DeploySN sn1(Renan-PC:5000)] started
+2014-08-18 23:50:45.523 UTC Informações [admin1] Monitor collector: adding sn1 to monitoring
+2014-08-18 23:50:45.550 UTC Informações [admin1] [sn1] Service status: RUNNING 2014-08-18 23:50:45 UTC
+2014-08-18 23:50:45.566 UTC Informações [admin1] Plan 2[Deploy Storage Node]: task 1 [DeploySN sn1(Renan-PC:5000)] ended, state=SUCCEEDED
+2014-08-18 23:50:45.598 UTC Informações [admin1] Plan 2[Deploy Storage Node]: ended, state=SUCCEEDED
+2014-08-18 23:50:45.599 UTC Informações [admin1] awaitPlan of Plan 2[Deploy Storage Node] finished, state=SUCCEEDED
+2014-08-18 23:50:45.742 UTC Informações [admin1] Plan 3[Deploy Admin Service] approved
+2014-08-18 23:50:45.745 UTC Informações [admin1] Plan 3[Deploy Admin Service]: started, 1 tasks
+2014-08-18 23:50:45.798 UTC Informações [admin1] Plan 3[Deploy Admin Service]: task 1 [DeployAdmin AdminId[admin1] on SNId[sn1]] started
+2014-08-18 23:50:46.075 UTC Informações [admin1] newParameters called for Monitor
+2014-08-18 23:50:46.132 UTC Informações [admin1] Plan 3[Deploy Admin Service]: task 1 [DeployAdmin AdminId[admin1] on SNId[sn1]] ended, state=SUCCEEDED
+2014-08-18 23:50:46.179 UTC Informações [admin1] Plan 3[Deploy Admin Service]: ended, state=SUCCEEDED
+2014-08-18 23:50:46.180 UTC Informações [admin1] awaitPlan of Plan 3[Deploy Admin Service] finished, state=SUCCEEDED
+2014-08-18 23:50:46.188 UTC Informações [admin1] Created Storage Node Pool: KVLitePool
+2014-08-18 23:50:46.260 UTC Informações [admin1] Added Storage Node sn1 to pool: KVLitePool
+2014-08-18 23:50:46.576 UTC Informações [admin1] oracle.kv.impl.admin.topo.TopologyCandidate@2508cc45 has nothing to rebalance
+2014-08-18 23:50:47.687 UTC Informações [admin1] Getting SECURITY metadata
+2014-08-18 23:50:48.052 UTC Informações [admin1] Plan 4[Deploy KVStore] approved
+2014-08-18 23:50:48.064 UTC Informações [admin1] Plan 4[Deploy KVStore] deploying topology candidate KVLite.
+2014-08-18 23:50:48.071 UTC Informações [admin1] Current topology: store=kvstore  numPartitions=0 sequence=2
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] Renan-PC:5000
+
+
+2014-08-18 23:50:48.072 UTC Informações [admin1] Preview of changes to be executed by Plan 4[Deploy KVStore]:
+Topology transformation from current deployed topology to KVLite:
+Create 1 shard 
+Create 1 RN 
+Create 10 partitions 
+
+shard rg1
+  1 new RN : rg1-rn1 
+  10 new partitions 
+
+2014-08-18 23:50:48.073 UTC Informações [admin1] Target topology candidate: KVLite
+store=kvstore  numPartitions=10 sequence=14
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] Renan-PC:5000
+    [rg1-rn1]
+
+  shard=[rg1] num partitions=10
+    [rg1-rn1] sn=sn1
+
+2014-08-18 23:50:48.075 UTC Informações [admin1] Plan 4[Deploy KVStore]: started, 8 tasks
+2014-08-18 23:50:48.139 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 1 [UpdateDatacenter zone=zn1] started
+2014-08-18 23:50:48.172 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 1 [UpdateDatacenter zone=zn1] ended, state=SUCCEEDED
+2014-08-18 23:50:48.172 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 2 [DeployShard on [sn1] zn:[id=zn1 name=KVLite] Renan-PC:5000 ] started
+2014-08-18 23:50:48.283 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 2 [DeployShard rg1 on [sn1] zn:[id=zn1 name=KVLite] Renan-PC:5000 ] ended, state=SUCCEEDED
+2014-08-18 23:50:48.284 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 3 [DeployNewRN on sn1(Renan-PC:5000)] started
+2014-08-18 23:50:48.295 UTC Informações [admin1] Creating rg1-rn1 on sn1 haPort=Renan-PC:5.006 helpers=Renan-PC:5006 storage directory=null heapMB=unspecified cacheSize=unspecified -XX:ParallelGCThreads=4
+2014-08-18 23:50:48.659 UTC Informações [admin1] Getting SECURITY metadata
+2014-08-18 23:50:48.661 UTC Informações [admin1] Getting TABLE metadata
+2014-08-18 23:50:50.083 UTC Informações [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2014-08-18 23:50:50.101 UTC Informações [admin1] [rg1-rn1] Service status: RUNNING 2014-08-18 23:50:49 UTC
+2014-08-18 23:50:50.202 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 3 [DeployNewRN rg1-rn1 on sn1(Renan-PC:5000)] ended, state=SUCCEEDED
+2014-08-18 23:50:50.202 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 4 [UpdateNthRNHelperHost] started
+2014-08-18 23:50:50.223 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 4 [UpdateNthRNHelperHost] ended, state=SUCCEEDED
+2014-08-18 23:50:50.224 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 5 [NewNthRNParameters] started
+2014-08-18 23:50:50.269 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 5 [NewNthRNParameters] ended, state=SUCCEEDED
+2014-08-18 23:50:50.269 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 6 [BroadcastTopo] started
+2014-08-18 23:50:50.270 UTC Informações [admin1] Broadcasting topology seq# 4, changes for BroadcastTopo
+2014-08-18 23:50:50.483 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 6 [BroadcastTopo] ended, state=SUCCEEDED
+2014-08-18 23:50:50.483 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 7 [BroadcastMetadata] started
+2014-08-18 23:50:50.626 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 7 [BroadcastMetadata] ended, state=SUCCEEDED
+2014-08-18 23:50:50.626 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 8 [AddPartitions totalPartitions = 10] started
+2014-08-18 23:50:50.849 UTC Informações [admin1] Broadcasting topology seq# 14, changes for Initializing new partitions
+2014-08-18 23:50:51.033 UTC Informações [admin1] Plan 4[Deploy KVStore]: task 8 [AddPartitions totalPartitions = 10] ended, state=SUCCEEDED
+2014-08-18 23:50:51.092 UTC Informações [admin1] Plan 4[Deploy KVStore]: ended, state=SUCCEEDED
+2014-08-18 23:50:51.093 UTC Informações [admin1] awaitPlan of Plan 4[Deploy KVStore] finished, state=SUCCEEDED
+2014-08-19 00:27:00.133 UTC Informações [admin1] Starting AdminService
+2014-08-19 00:27:00.202 UTC Informações [admin1] Initializing Admin for store: kvstore
+2014-08-19 00:27:00.203 UTC Informações [admin1] JVM Runtime maxMemory (bytes): 907870208
+2014-08-19 00:27:00.204 UTC Informações [admin1] Non-default JE properties for environment: {je.rep.vlsn.logCacheSize=128, je.rep.envUnknownStateTimeout=10 s, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+2014-08-19 00:27:00.313 UTC Informações [admin1] DataChannelFactory: basic
+2014-08-19 00:27:00.601 UTC Informações [admin1] JE recovery: FIND_END_OF_LOG
+2014-08-19 00:27:00.715 UTC Informações [admin1] JE recovery: FIND_LAST_CKPT
+2014-08-19 00:27:00.720 UTC Informações [admin1] JE recovery: READ_DBMAP_INFO
+2014-08-19 00:27:00.750 UTC Informações [admin1] JE recovery: UNDO_DBMAP_RECORDS
+2014-08-19 00:27:00.756 UTC Informações [admin1] JE recovery: REDO_DBMAP_RECORDS
+2014-08-19 00:27:00.765 UTC Informações [admin1] JE recovery: READ_DATA_INFO
+2014-08-19 00:27:00.777 UTC Informações [admin1] JE recovery: UNDO_DATA_RECORDS
+2014-08-19 00:27:00.787 UTC Informações [admin1] JE recovery: REDO_DATA_RECORDS
+2014-08-19 00:27:00.821 UTC Informações [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2014-08-19 00:27:00.823 UTC Informações [admin1] JE recovery: REMOVE_TEMP_DBS
+2014-08-19 00:27:00.921 UTC Informações [admin1] JE recovery: CKPT
+2014-08-19 00:27:00.994 UTC Informações [admin1] JE recovery: RECOVERY_FINISHED
+2014-08-19 00:27:01.056 UTC Informações [admin1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-19 00:27:01.056 UTC Informações [admin1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5005
+2014-08-19 00:27:01.057 UTC Informações [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.057 UTC Informações [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.120 UTC Informações [admin1] JE: Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [admin1] JE: Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [admin1] JE: Existing node 1 querying for a current master.
+2014-08-19 00:27:01.120 UTC Informações [admin1] JE: Existing node 1 querying for a current master.
+2014-08-19 00:27:01.136 UTC Informações [admin1] JE recovery: BECOME_CONSISTENT
+2014-08-19 00:27:01.136 UTC Informações [admin1] JE: Node 1 started
+2014-08-19 00:27:01.136 UTC Informações [admin1] JE: Node 1 started
+2014-08-19 00:27:01.137 UTC Informações [admin1] JE: Election initiated; election #1
+2014-08-19 00:27:01.137 UTC Informações [admin1] JE: Election initiated; election #1
+2014-08-19 00:27:01.141 UTC Informações [admin1] JE: Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:01.141 UTC Informações [admin1] JE: Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:03.166 UTC Informações [admin1] JE: Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000002) Value: Value:10.0.0.144$$$5005$$$1$$$1
+2014-08-19 00:27:03.166 UTC Informações [admin1] JE: Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000002) Value: Value:10.0.0.144$$$5005$$$1$$$1
+2014-08-19 00:27:03.170 UTC Informações [admin1] JE: Master changed to 1
+2014-08-19 00:27:03.170 UTC Informações [admin1] JE: Master changed to 1
+2014-08-19 00:27:03.171 UTC Informações [admin1] JE: Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [admin1] JE: Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [admin1] JE: Feeder manager accepting requests.
+2014-08-19 00:27:03.172 UTC Informações [admin1] JE: Feeder manager accepting requests.
+2014-08-19 00:27:03.173 UTC Informações [admin1] JE: Election thread exited. Group master: 1(1)
+2014-08-19 00:27:03.173 UTC Informações [admin1] JE: Election thread exited. Group master: 1(1)
+2014-08-19 00:27:03.174 UTC Informações [admin1] JE: Joining group as master
+2014-08-19 00:27:03.174 UTC Informações [admin1] JE: Joining group as master
+2014-08-19 00:27:03.176 UTC Informações [admin1] JE: Refreshed 0 monitors.
+2014-08-19 00:27:03.176 UTC Informações [admin1] JE: Refreshed 0 monitors.
+2014-08-19 00:27:03.179 UTC Informações [admin1] State change event: Mon Aug 18 21:27:03 BRT 2014, State: MASTER, Master: 1
+2014-08-19 00:27:03.379 UTC Informações [admin1] Shutting down monitor collector
+2014-08-19 00:27:03.402 UTC Informações [admin1] Using existing Admin database
+2014-08-19 00:27:03.411 UTC Informações [admin1] Monitor collector: adding sn1 to monitoring
+2014-08-19 00:27:03.413 UTC Informações [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2014-08-19 00:27:03.433 UTC Informações [admin1] Replicated environment handle established. Cache size: 544722124, State: MASTER
+2014-08-19 00:27:03.444 UTC Informações [admin1] [sn1] Service status: RUNNING 2014-08-19 00:27:00 UTC
+2014-08-19 00:27:03.445 UTC Informações [admin1] Starting Command service on rmi://Renan-PC:5000/commandService
+2014-08-19 00:27:03.461 UTC Informações [admin1] [rg1-rn1] Service status: STARTING 2014-08-19 00:27:03 UTC
+2014-08-19 00:27:03.519 UTC Informações [admin1] Successfully created secure proxy for the command service
+2014-08-19 00:27:03.565 UTC Informações [admin1] Starting Web service on port 5001
+2014-08-19 00:27:03.637 UTC Informações [admin1] jetty-7.4.0.v20110414
+2014-08-19 00:27:03.884 UTC Informações [admin1] Extract jar:file:/C:/Users/Renan/workspace/Mining%20Test/lib/Oracle%20noSql/kvstore.jar!/war/KVAdminUI/ to C:\Users\Renan\AppData\Local\Temp\jetty-0.0.0.0-5001-KVAdminUI-_-any-\webapp
+2014-08-19 00:27:04.879 UTC Informações [admin1] NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2014-08-19 00:27:04.921 UTC Informações [admin1] started o.e.j.w.WebAppContext{/,file:/C:/Users/Renan/AppData/Local/Temp/jetty-0.0.0.0-5001-KVAdminUI-_-any-/webapp/},jar:file:/C:/Users/Renan/workspace/Mining%20Test/lib/Oracle%20noSql/kvstore.jar!/war/KVAdminUI
+2014-08-19 00:27:04.955 UTC Informações [admin1] Started SelectChannelConnector@0.0.0.0:5001 STARTING
+2014-08-19 00:27:04.956 UTC Informações [admin1] Started AdminService

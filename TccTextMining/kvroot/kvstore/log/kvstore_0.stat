@@ -1,0 +1,507 @@
+2014-08-18 23:51:10.128 UTC Informações [kvstore] rg1-rn1 (23:50:49.029 UTC -> 23:51:00.030 UTC)
+Cache
+	adminBytes=589
+	avgBatchCACHEMODE=0
+	avgBatchCRITICAL=0
+	avgBatchDAEMON=0
+	avgBatchEVICTORTHREAD=0
+	avgBatchMANUAL=0
+	cacheTotalBytes=16.828.069
+	dataAdminBytes=3.544
+	dataBytes=48.808
+	lockBytes=1.456
+	nBINsFetch=113
+	nCachedBINs=7
+	nCachedUpperINs=7
+	nINNoTarget=4
+	nINSparseTarget=8
+	nLNsFetch=35
+	nLNsFetchMiss=15
+Checkpoints
+	lastCheckpointEnd=0x0/0x42b
+	lastCheckpointId=1
+	lastCheckpointInterval=0x0/0x1d0
+	lastCheckpointStart=0x0/0x1d0
+	nCheckpoints=1
+	nFullBINFlush=2
+	nFullINFlush=4
+Cleaning
+	lastKnownUtilization=49
+	lnSizeCorrectionFactor=NaN
+	totalLogSize=181.443
+I/O
+	bufferBytes=16.777.216
+	endOfLog=0x0/0x2c317
+	nFSyncRequests=5
+	nFSyncTime=404
+	nFSyncs=5
+	nFileOpens=4
+	nGroupCommitRequests=19
+	nLogBuffers=16
+	nLogFSyncs=9
+	nNotResident=15
+	nRandomWriteBytes=38
+	nRandomWrites=1
+	nSequentialReadBytes=12.288
+	nSequentialReads=3
+	nSequentialWriteBytes=181.443
+	nSequentialWrites=22
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=148
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1.408.405.849.112
+Op
+	cursorPut=1
+	cursorPutNoOverwrite=1
+	dbGet=27
+	dbPut=15
+
+2014-08-18 23:51:10.129 UTC Informações [kvstore] rg1-rn1 (23:50:49.029 UTC -> 23:51:00.030 UTC)
+FeederManager
+	nMaxReplicaLag=NONE
+Replay
+	maxCommitProcessingNanos=NONE
+	minCommitProcessingNanos=NONE
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+VLSNIndex
+	nBucketsCreated=1
+
+2014-08-18 23:51:10.129 UTC Informações [kvstore] rg1-rn1 (23:50:49.029 UTC -> 23:51:00.030 UTC)
+Memory
+	freeMemory=46961552
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:52:10.088 UTC Informações [kvstore] rg1-rn1 (23:51:00.030 UTC -> 23:52:00.030 UTC)
+Memory
+	freeMemory=42051576
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:53:10.090 UTC Informações [kvstore] rg1-rn1 (23:52:00.030 UTC -> 23:53:00.030 UTC)
+Memory
+	freeMemory=40515360
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:54:10.089 UTC Informações [kvstore] rg1-rn1 (23:53:00.030 UTC -> 23:54:00.031 UTC)
+Memory
+	freeMemory=38799712
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:55:10.091 UTC Informações [kvstore] rg1-rn1 (23:54:00.031 UTC -> 23:55:00.031 UTC)
+Memory
+	freeMemory=37137120
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:56:10.089 UTC Informações [kvstore] rg1-rn1 (23:55:00.031 UTC -> 23:56:00.032 UTC)
+Memory
+	freeMemory=34500440
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:57:10.092 UTC Informações [kvstore] rg1-rn1 (23:56:00.032 UTC -> 23:57:00.032 UTC)
+Memory
+	freeMemory=33048944
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:58:10.092 UTC Informações [kvstore] rg1-rn1 (23:57:00.032 UTC -> 23:58:00.033 UTC)
+Memory
+	freeMemory=31455656
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-18 23:59:10.093 UTC Informações [kvstore] rg1-rn1 (23:58:00.033 UTC -> 23:59:00.033 UTC)
+Memory
+	freeMemory=29823992
+	maxMemory=907870208
+	totalMemory=105709568
+PS Scavenge
+	count=9
+	time=71
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:00:10.094 UTC Informações [kvstore] rg1-rn1 (23:59:00.033 UTC -> 00:00:00.033 UTC)
+Memory
+	freeMemory=62498928
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:01:10.091 UTC Informações [kvstore] rg1-rn1 (00:00:00.033 UTC -> 00:01:00.034 UTC)
+Memory
+	freeMemory=59791608
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:02:10.096 UTC Informações [kvstore] rg1-rn1 (00:01:00.034 UTC -> 00:02:00.034 UTC)
+Memory
+	freeMemory=58324944
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:03:10.094 UTC Informações [kvstore] rg1-rn1 (00:02:00.034 UTC -> 00:03:00.035 UTC)
+Memory
+	freeMemory=56770408
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:04:10.093 UTC Informações [kvstore] rg1-rn1 (00:03:00.035 UTC -> 00:04:00.035 UTC)
+Memory
+	freeMemory=55188408
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:05:10.095 UTC Informações [kvstore] rg1-rn1 (00:04:00.035 UTC -> 00:05:00.036 UTC)
+Memory
+	freeMemory=53556336
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:06:10.096 UTC Informações [kvstore] rg1-rn1 (00:05:00.036 UTC -> 00:06:00.036 UTC)
+Memory
+	freeMemory=51595664
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:07:10.097 UTC Informações [kvstore] rg1-rn1 (00:06:00.036 UTC -> 00:07:00.036 UTC)
+Memory
+	freeMemory=50113832
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:08:10.096 UTC Informações [kvstore] rg1-rn1 (00:07:00.036 UTC -> 00:08:00.037 UTC)
+Memory
+	freeMemory=48526616
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:09:10.098 UTC Informações [kvstore] rg1-rn1 (00:08:00.037 UTC -> 00:09:00.037 UTC)
+Memory
+	freeMemory=46901368
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:10:10.098 UTC Informações [kvstore] rg1-rn1 (00:09:00.037 UTC -> 00:10:00.038 UTC)
+Memory
+	freeMemory=45343456
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:11:10.097 UTC Informações [kvstore] rg1-rn1 (00:10:00.038 UTC -> 00:11:00.038 UTC)
+Memory
+	freeMemory=43424216
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:12:10.101 UTC Informações [kvstore] rg1-rn1 (00:11:00.038 UTC -> 00:12:00.039 UTC)
+Memory
+	freeMemory=41934616
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:13:10.056 UTC Informações [kvstore] rg1-rn1 (00:12:00.039 UTC -> 00:13:00.038 UTC)
+Memory
+	freeMemory=39899528
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:14:10.057 UTC Informações [kvstore] rg1-rn1 (00:13:00.038 UTC -> 00:13:59.997 UTC)
+Memory
+	freeMemory=38338504
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:15:10.049 UTC Informações [kvstore] rg1-rn1 (00:13:59.997 UTC -> 00:14:59.998 UTC)
+Memory
+	freeMemory=36691416
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:16:10.053 UTC Informações [kvstore] rg1-rn1 (00:14:59.998 UTC -> 00:15:59.997 UTC)
+Memory
+	freeMemory=34648208
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:17:10.052 UTC Informações [kvstore] rg1-rn1 (00:15:59.997 UTC -> 00:16:59.992 UTC)
+Memory
+	freeMemory=33164720
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:18:10.053 UTC Informações [kvstore] rg1-rn1 (00:16:59.992 UTC -> 00:17:59.992 UTC)
+Memory
+	freeMemory=31610912
+	maxMemory=907870208
+	totalMemory=116391936
+PS Scavenge
+	count=10
+	time=102
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:19:10.053 UTC Informações [kvstore] rg1-rn1 (00:17:59.992 UTC -> 00:18:59.993 UTC)
+Memory
+	freeMemory=65958224
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:20:10.055 UTC Informações [kvstore] rg1-rn1 (00:18:59.993 UTC -> 00:19:59.994 UTC)
+Memory
+	freeMemory=64403800
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:21:10.053 UTC Informações [kvstore] rg1-rn1 (00:19:59.994 UTC -> 00:20:59.994 UTC)
+Memory
+	freeMemory=62228320
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:22:10.053 UTC Informações [kvstore] rg1-rn1 (00:20:59.994 UTC -> 00:21:59.995 UTC)
+Memory
+	freeMemory=60691368
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:23:10.055 UTC Informações [kvstore] rg1-rn1 (00:21:59.995 UTC -> 00:22:59.995 UTC)
+Memory
+	freeMemory=59215080
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:24:10.055 UTC Informações [kvstore] rg1-rn1 (00:22:59.995 UTC -> 00:23:59.996 UTC)
+Memory
+	freeMemory=57630640
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:25:10.056 UTC Informações [kvstore] rg1-rn1 (00:23:59.996 UTC -> 00:24:59.996 UTC)
+Memory
+	freeMemory=56121184
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+
+2014-08-19 00:26:10.054 UTC Informações [kvstore] rg1-rn1 (00:24:59.996 UTC -> 00:25:59.997 UTC)
+Memory
+	freeMemory=53649712
+	maxMemory=907870208
+	totalMemory=119144448
+PS Scavenge
+	count=11
+	time=120
+PS MarkSweep
+	count=2
+	time=78
+

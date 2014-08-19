@@ -1,0 +1,154 @@
+2014-08-18 23:50:48.983 UTC Informações [rg1-rn1] Thread[KV_rg1-rn1_RepNodeStateUpdateThread,5,RMI Runtime] started
+2014-08-18 23:50:49.011 UTC Informações [rg1-rn1] JVM Runtime maxMemory (bytes): 907870208
+2014-08-18 23:50:49.013 UTC Informações [rg1-rn1] Non-default JE properties for environment: {je.rep.vlsn.logCacheSize=128, je.rep.envUnknownStateTimeout=10 s, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+2014-08-18 23:50:49.013 UTC Informações [rg1-rn1] DataChannelFactory: basic
+2014-08-18 23:50:49.014 UTC Informações [rg1-rn1] Created new environment dir: .\kvroot\kvstore\sn1\rg1-rn1\env
+2014-08-18 23:50:49.021 UTC Informações [rg1-rn1] Table manager created
+2014-08-18 23:50:49.025 UTC Informações [rg1-rn1] Partition database cache mode: EVICT_LN
+2014-08-18 23:50:49.038 UTC Informações [rg1-rn1] Thread[KV_rg1-rn1_MetadataUpdateThread,5,RMI Runtime] started
+2014-08-18 23:50:49.048 UTC Informações [rg1-rn1] Starting RepNodeService
+2014-08-18 23:50:49.048 UTC Informações [rg1-rn1] Starting RN MonitorAgent.  Server socket factory:<ClearServerSocketFactory name=monitor backlog=0 port range=0,0> Client socket connect factory: <ClientSocketFactory name=kvstore|rn|monitor id=831970174 connectMs=10000 readMs=10000>
+2014-08-18 23:50:49.059 UTC Informações [rg1-rn1] Starting MonitorAgent
+2014-08-18 23:50:49.087 UTC Informações [rg1-rn1] Successfully created secure proxy for the repnode admin
+2014-08-18 23:50:49.107 UTC Informações [rg1-rn1] RepNodeAdmin registered
+2014-08-18 23:50:49.315 UTC Informações [rg1-rn1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2014-08-18 23:50:49.319 UTC Informações [rg1-rn1] JE recovery: REMOVE_TEMP_DBS
+2014-08-18 23:50:49.321 UTC Informações [rg1-rn1] JE recovery: CKPT
+2014-08-18 23:50:49.509 UTC Informações [rg1-rn1] JE recovery: RECOVERY_FINISHED
+2014-08-18 23:50:49.531 UTC Informações [rg1-rn1] JE: Current group size: 0
+2014-08-18 23:50:49.532 UTC Informações [rg1-rn1] JE: New node rg1-rn1(-1) unknown to rep group
+2014-08-18 23:50:49.532 UTC Informações [rg1-rn1] JE: Master changed to rg1-rn1
+2014-08-18 23:50:49.533 UTC Informações [rg1-rn1] JE: Nascent group. rg1-rn1 is master by virtue of being the first node.
+2014-08-18 23:50:49.544 UTC Informações [rg1-rn1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-18 23:50:49.545 UTC Informações [rg1-rn1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-18 23:50:49.686 UTC Informações [rg1-rn1] JE: Successfully added node:rg1-rn1(1) HostPort = Renan-PC: 5006 [ELECTABLE]
+2014-08-18 23:50:49.687 UTC Informações [rg1-rn1] JE: Refreshed 0 monitors.
+2014-08-18 23:50:49.691 UTC Informações [rg1-rn1] JE recovery: BECOME_CONSISTENT
+2014-08-18 23:50:49.691 UTC Informações [rg1-rn1] JE: Node rg1-rn1 started
+2014-08-18 23:50:49.692 UTC Informações [rg1-rn1] JE: Feeder manager accepting requests.
+2014-08-18 23:50:49.693 UTC Informações [rg1-rn1] JE: Joining group as master
+2014-08-18 23:50:49.694 UTC Informações [rg1-rn1] JE: Refreshed 0 monitors.
+2014-08-18 23:50:49.695 UTC Informações [rg1-rn1] Opened JE environment: 6.0.8 JVM max heap: 907.870.208 JE properties: allowCreate=true
+cacheSize=544722124
+txnNoSync=false
+txnWriteNoSync=false
+{je.rep.envUnknownStateTimeout=10 s, je.rep.vlsn.logCacheSize=128, je.rep.nodeName=rg1-rn1, je.rep.nodeHostPort=Renan-PC:5006, je.maxMemory=0, je.env.isTransactional=true, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.rep.nodeType=ELECTABLE, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.rep.helperHosts=Renan-PC:5006, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.groupName=rg1, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=WRITE_NO_SYNC,WRITE_NO_SYNC,SIMPLE_MAJORITY, je.cleaner.readSize=1048576, je.rep.preserveRecordVersion=true, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+
+2014-08-18 23:50:49.729 UTC Informações [rg1-rn1] Local Environment version updated to: 12cR1.3.0.5 2014-03-27 09:58:33 UTC  Build id: cc4ac0e66407 Previous version:  none
+2014-08-18 23:50:49.731 UTC Informações [rg1-rn1] State change event: Mon Aug 18 20:50:49 BRT 2014, State: MASTER, Master: rg1-rn1
+2014-08-18 23:50:49.732 UTC Informações [rg1-rn1] MigrationStateTracker queue added:MASTER
+2014-08-18 23:50:49.732 UTC Informações [rg1-rn1] TableManagerStateTracker queue added:MASTER
+2014-08-18 23:50:49.732 UTC Informações [rg1-rn1] MasterBalanceStateTracker queue added:MASTER
+2014-08-18 23:50:49.733 UTC Informações [rg1-rn1] Replicated environment handle established. Cache size: 544722124, State: MASTER
+2014-08-18 23:50:49.734 UTC Informações [rg1-rn1] Environment does not contain topology store.
+2014-08-18 23:50:49.734 UTC Informações [rg1-rn1] Topology needs to be pushed to this node.
+2014-08-18 23:50:49.735 UTC Informações [rg1-rn1] TableManagerStateTracker thread start rn: rg1-rn1
+2014-08-18 23:50:49.734 UTC Informações [rg1-rn1] MigrationStateTracker thread start rn: rg1-rn1
+2014-08-18 23:50:49.734 UTC Informações [rg1-rn1] MasterBalanceStateTracker thread start rn: rg1-rn1
+2014-08-18 23:50:49.736 UTC Informações [rg1-rn1] Migration manager change state to MASTER.
+2014-08-18 23:50:49.736 UTC Informações [rg1-rn1] Table manager change state to MASTER
+2014-08-18 23:50:49.750 UTC Informações [rg1-rn1] Migration service accepting requests.
+2014-08-18 23:50:49.755 UTC Informações [rg1-rn1] No RN Login configured. 
+2014-08-18 23:50:49.755 UTC Informações [rg1-rn1] Service status changed from STARTING to RUNNING
+2014-08-18 23:50:49.755 UTC Informações [rg1-rn1] Started RepNodeService
+2014-08-18 23:50:49.945 UTC Informações [rg1-rn1] Topology updated from seq#: 0 to 4
+2014-08-18 23:50:49.949 UTC Informações [rg1-rn1] Open SecurityMetadata DB
+2014-08-18 23:50:49.952 UTC Informações [rg1-rn1] Open TableMetadata DB
+2014-08-18 23:50:49.953 UTC Informações [rg1-rn1] Established 0 partition database handles, topology seq#: 4
+2014-08-18 23:50:49.961 UTC Informações [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2014-08-18 23:50:49.964 UTC Informações [rg1-rn1] Found 0 indexes and 0 tables marked for deletion in TableMetadata[0, 0, 0]
+2014-08-18 23:50:49.964 UTC Informações [rg1-rn1] Established 0 secondary database handles
+2014-08-18 23:50:50.080 UTC Informações [rg1-rn1] Topology stored seq#: 4
+2014-08-18 23:50:50.247 UTC Informações [rg1-rn1] newParameters are identical to old parameters
+2014-08-18 23:50:50.868 UTC Informações [rg1-rn1] Topology incrementally updated from seq#: 4 to 14
+2014-08-18 23:50:50.869 UTC Informações [rg1-rn1] Closing SecurityMetadata db
+2014-08-18 23:50:50.869 UTC Informações [rg1-rn1] Open SecurityMetadata DB
+2014-08-18 23:50:50.872 UTC Informações [rg1-rn1] Closing TableMetadata db
+2014-08-18 23:50:50.872 UTC Informações [rg1-rn1] Open TableMetadata DB
+2014-08-18 23:50:50.883 UTC Informações [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2014-08-18 23:50:50.891 UTC Informações [rg1-rn1] Found 0 indexes and 0 tables marked for deletion in TableMetadata[0, 0, 0]
+2014-08-18 23:50:50.892 UTC Informações [rg1-rn1] Established 0 secondary database handles
+2014-08-18 23:50:50.890 UTC Informações [rg1-rn1] Established 10 partition database handles, topology seq#: 14
+2014-08-18 23:50:50.992 UTC Informações [rg1-rn1] Topology stored seq#: 14
+2014-08-19 00:27:00.220 UTC Informações [rg1-rn1] Thread[KV_rg1-rn1_RepNodeStateUpdateThread,5,main] started
+2014-08-19 00:27:00.309 UTC Informações [rg1-rn1] JVM Runtime maxMemory (bytes): 907870208
+2014-08-19 00:27:00.311 UTC Informações [rg1-rn1] Non-default JE properties for environment: {je.rep.vlsn.logCacheSize=128, je.rep.envUnknownStateTimeout=10 s, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+2014-08-19 00:27:00.315 UTC Informações [rg1-rn1] DataChannelFactory: basic
+2014-08-19 00:27:00.332 UTC Informações [rg1-rn1] Table manager created
+2014-08-19 00:27:00.343 UTC Informações [rg1-rn1] Partition database cache mode: EVICT_LN
+2014-08-19 00:27:00.360 UTC Informações [rg1-rn1] Thread[KV_rg1-rn1_MetadataUpdateThread,5,main] started
+2014-08-19 00:27:00.373 UTC Informações [rg1-rn1] Starting RepNodeService
+2014-08-19 00:27:00.373 UTC Informações [rg1-rn1] Starting RN MonitorAgent.  Server socket factory:<ClearServerSocketFactory name=monitor backlog=0 port range=0,0> Client socket connect factory: <ClientSocketFactory name=kvstore|rn|monitor id=-616349226 connectMs=10000 readMs=10000>
+2014-08-19 00:27:00.385 UTC Informações [rg1-rn1] Starting MonitorAgent
+2014-08-19 00:27:00.424 UTC Informações [rg1-rn1] Successfully created secure proxy for the repnode admin
+2014-08-19 00:27:00.467 UTC Informações [rg1-rn1] RepNodeAdmin registered
+2014-08-19 00:27:00.608 UTC Informações [rg1-rn1] JE recovery: FIND_END_OF_LOG
+2014-08-19 00:27:00.713 UTC Informações [rg1-rn1] JE recovery: FIND_LAST_CKPT
+2014-08-19 00:27:00.720 UTC Informações [rg1-rn1] JE recovery: READ_DBMAP_INFO
+2014-08-19 00:27:00.742 UTC Informações [rg1-rn1] JE recovery: UNDO_DBMAP_RECORDS
+2014-08-19 00:27:00.746 UTC Informações [rg1-rn1] JE recovery: REDO_DBMAP_RECORDS
+2014-08-19 00:27:00.756 UTC Informações [rg1-rn1] JE recovery: READ_DATA_INFO
+2014-08-19 00:27:00.773 UTC Informações [rg1-rn1] JE recovery: UNDO_DATA_RECORDS
+2014-08-19 00:27:00.776 UTC Informações [rg1-rn1] JE recovery: REDO_DATA_RECORDS
+2014-08-19 00:27:00.795 UTC Informações [rg1-rn1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2014-08-19 00:27:00.804 UTC Informações [rg1-rn1] JE recovery: REMOVE_TEMP_DBS
+2014-08-19 00:27:00.872 UTC Informações [rg1-rn1] JE recovery: CKPT
+2014-08-19 00:27:00.991 UTC Informações [rg1-rn1] JE recovery: RECOVERY_FINISHED
+2014-08-19 00:27:01.054 UTC Informações [rg1-rn1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-19 00:27:01.054 UTC Informações [rg1-rn1] JE: Started ServiceDispatcher. HostPort=Renan-PC:5006
+2014-08-19 00:27:01.055 UTC Informações [rg1-rn1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.055 UTC Informações [rg1-rn1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2014-08-19 00:27:01.120 UTC Informações [rg1-rn1] JE: Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [rg1-rn1] JE: Current group size: 1
+2014-08-19 00:27:01.120 UTC Informações [rg1-rn1] JE: Existing node rg1-rn1 querying for a current master.
+2014-08-19 00:27:01.120 UTC Informações [rg1-rn1] JE: Existing node rg1-rn1 querying for a current master.
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] JE recovery: BECOME_CONSISTENT
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] JE: Node rg1-rn1 started
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] JE: Node rg1-rn1 started
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] JE: Election initiated; election #1
+2014-08-19 00:27:01.136 UTC Informações [rg1-rn1] JE: Election initiated; election #1
+2014-08-19 00:27:01.141 UTC Informações [rg1-rn1] JE: Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:01.141 UTC Informações [rg1-rn1] JE: Started election thread Mon Aug 18 21:27:01 BRT 2014
+2014-08-19 00:27:03.165 UTC Informações [rg1-rn1] JE: Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000001) Value: Value:10.0.0.144$$$5006$$$rg1-rn1$$$1
+2014-08-19 00:27:03.166 UTC Informações [rg1-rn1] JE: Winning proposal: Proposal(00000147eba8f066:0000000000000000000000000a000090:00000001) Value: Value:10.0.0.144$$$5006$$$rg1-rn1$$$1
+2014-08-19 00:27:03.170 UTC Informações [rg1-rn1] JE: Master changed to rg1-rn1
+2014-08-19 00:27:03.170 UTC Informações [rg1-rn1] JE: Master changed to rg1-rn1
+2014-08-19 00:27:03.170 UTC Informações [rg1-rn1] JE: Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [rg1-rn1] JE: Election finished. Elapsed time: 2034ms
+2014-08-19 00:27:03.171 UTC Informações [rg1-rn1] JE: Feeder manager accepting requests.
+2014-08-19 00:27:03.172 UTC Informações [rg1-rn1] JE: Feeder manager accepting requests.
+2014-08-19 00:27:03.172 UTC Informações [rg1-rn1] JE: Election thread exited. Group master: rg1-rn1(1)
+2014-08-19 00:27:03.173 UTC Informações [rg1-rn1] JE: Election thread exited. Group master: rg1-rn1(1)
+2014-08-19 00:27:03.174 UTC Informações [rg1-rn1] JE: Joining group as master
+2014-08-19 00:27:03.174 UTC Informações [rg1-rn1] JE: Joining group as master
+2014-08-19 00:27:03.176 UTC Informações [rg1-rn1] JE: Refreshed 0 monitors.
+2014-08-19 00:27:03.176 UTC Informações [rg1-rn1] JE: Refreshed 0 monitors.
+2014-08-19 00:27:03.177 UTC Informações [rg1-rn1] Opened JE environment: 6.0.8 JVM max heap: 907.870.208 JE properties: allowCreate=true
+cacheSize=544722124
+txnNoSync=false
+txnWriteNoSync=false
+{je.rep.envUnknownStateTimeout=10 s, je.rep.vlsn.logCacheSize=128, je.rep.nodeName=rg1-rn1, je.rep.nodeHostPort=Renan-PC:5006, je.maxMemory=0, je.env.isTransactional=true, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.rep.nodeType=ELECTABLE, je.cleaner.minUtilization=40, je.evictor.maxThreads=2, je.rep.replicaAckTimeout=5 s, je.rep.helperHosts=Renan-PC:5006, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.groupName=rg1, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.checkpointer.bytesInterval=200000000, je.txn.durability=WRITE_NO_SYNC,WRITE_NO_SYNC,SIMPLE_MAJORITY, je.cleaner.readSize=1048576, je.rep.preserveRecordVersion=true, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+
+2014-08-19 00:27:03.193 UTC Informações [rg1-rn1] State change event: Mon Aug 18 21:27:03 BRT 2014, State: MASTER, Master: rg1-rn1
+2014-08-19 00:27:03.193 UTC Informações [rg1-rn1] MigrationStateTracker queue added:MASTER
+2014-08-19 00:27:03.193 UTC Informações [rg1-rn1] TableManagerStateTracker queue added:MASTER
+2014-08-19 00:27:03.194 UTC Informações [rg1-rn1] MasterBalanceStateTracker queue added:MASTER
+2014-08-19 00:27:03.194 UTC Informações [rg1-rn1] Replicated environment handle established. Cache size: 544722124, State: MASTER
+2014-08-19 00:27:03.468 UTC Informações [rg1-rn1] Topology updated from seq#: 0 to 14
+2014-08-19 00:27:03.473 UTC Informações [rg1-rn1] Open SecurityMetadata DB
+2014-08-19 00:27:03.477 UTC Informações [rg1-rn1] Open TableMetadata DB
+2014-08-19 00:27:03.484 UTC Informações [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2014-08-19 00:27:03.490 UTC Informações [rg1-rn1] Established 10 partition database handles, topology seq#: 14
+2014-08-19 00:27:03.491 UTC Informações [rg1-rn1] Found 0 indexes and 0 tables marked for deletion in TableMetadata[0, 0, 0]
+2014-08-19 00:27:03.492 UTC Informações [rg1-rn1] Established 0 secondary database handles
+2014-08-19 00:27:03.585 UTC Informações [rg1-rn1] Topology stored seq#: 14
+2014-08-19 00:27:03.586 UTC Informações [rg1-rn1] Topology fetched sequence#: 14, updated topology seq# 14
+2014-08-19 00:27:03.587 UTC Informações [rg1-rn1] MasterBalanceStateTracker thread start rn: rg1-rn1
+2014-08-19 00:27:03.587 UTC Informações [rg1-rn1] TableManagerStateTracker thread start rn: rg1-rn1
+2014-08-19 00:27:03.587 UTC Informações [rg1-rn1] Table manager change state to MASTER
+2014-08-19 00:27:03.587 UTC Informações [rg1-rn1] MigrationStateTracker thread start rn: rg1-rn1
+2014-08-19 00:27:03.588 UTC Informações [rg1-rn1] Migration manager change state to MASTER.
+2014-08-19 00:27:03.593 UTC Informações [rg1-rn1] Migration service accepting requests.
+2014-08-19 00:27:03.607 UTC Informações [rg1-rn1] No RN Login configured. 
+2014-08-19 00:27:03.608 UTC Informações [rg1-rn1] Service status changed from STARTING to RUNNING
+2014-08-19 00:27:03.608 UTC Informações [rg1-rn1] Started RepNodeService
