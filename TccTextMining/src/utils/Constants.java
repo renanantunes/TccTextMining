@@ -16,5 +16,5 @@ public class Constants {
 	public final static String DATEFORMAT1 = "yyyy/MM/dd";
 	public final static String DATEFORMAT2 = "dd-MM-yy";
 	
-	public final static String ARFFPATH = "..\\Mining Test\\dataset";
+	public final static String ARFFPATH = "dataset";
 }

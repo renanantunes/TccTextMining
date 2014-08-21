@@ -1,5 +1,8 @@
 package twitter;
 
+import java.io.IOException;
+
+import twitter4j.ConnectionLifeCycleListener;
 import twitter4j.FilterQuery;
 import twitter4j.StallWarning;
 import twitter4j.Status;
@@ -14,8 +17,11 @@ import weka.core.Instances;
 import arff.ARFFHandler;
 
 public class TwitterListener {
+	private static TwitterStream twitterStream; //Transformei essa variável em statica para poder verificar se está conectado
+												//Aqui que acho que fica estranho, existe alguma outra maneira de usar essa variavel sem deixar static?
 	
 	public static void createLitener(String keyWords[], final Instances data){
+		
 		ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
         cb.setOAuthConsumerKey(Constants.TWITTERCONSUMERKEY);
@@ -23,7 +29,7 @@ public class TwitterListener {
         cb.setOAuthAccessToken(Constants.TWITTERACCESSTOKEN);
         cb.setOAuthAccessTokenSecret(Constants.TWITTERACCESSTOKENSECRET);
 
-        TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
+        twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
         StatusListener listener = new StatusListener() {
 
@@ -87,6 +93,39 @@ public class TwitterListener {
 
 	    twitterStream.addListener(listener);
 	    twitterStream.filter(fq);
+	    
+	    //Adicionei isso aqui
+	    try {
+	    	System.out.println("Enter to exit");
+			System.in.read(); //Linha para segurar a execução do resto enquanto não pressionar o enter
+		} catch (IOException e) {
+			System.err.println("===TwitterListener.createListener error closing listener.s");
+		}
+
+	    //Necessário para saber status da conexão do twitter
+	    twitterStream.addConnectionLifeCycleListener(new ConnectionLifeCycleListener() {
+			
+			@Override
+			public void onDisconnect() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onConnect() {
+				// Quando conectado ele executa o Shutdown para fechar a conexão
+				//Feito dessa maneira, pois se ele não estiver conectado o shutdown é simplesmente ignorado pelo código
+				System.out.println("Shutdown");
+			    twitterStream.shutdown();
+			}
+			
+			@Override
+			public void onCleanUp() {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	    
 	}
 
 }

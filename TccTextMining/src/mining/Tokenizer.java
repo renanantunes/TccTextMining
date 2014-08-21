@@ -11,10 +11,10 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class Tokenizer {
-	private Instances inputInstances;
-	private Instances outputInstances;
+	private static Instances inputInstances;
+	private static Instances outputInstances;
 	
-	public void loadARFF(String fileName) {
+	public static void loadARFF(String fileName) {
 		
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(fileName));
@@ -27,7 +27,7 @@ public class Tokenizer {
 		}
 	}
 	
-	public void index(){
+	public static void index(){
 		
 		try{
 			NGramTokenizer tokenizer = new NGramTokenizer();

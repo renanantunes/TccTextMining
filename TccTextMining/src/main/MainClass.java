@@ -13,23 +13,19 @@ public class MainClass {
 	public static void main(String[] args) {
 		Instances data = ARFFHandler.creatARFF();
 		//ARFFHandler.saveARFF(data);
-		String keyWords[] = {"bradesco", "ambev", "bovespa"};
-
-		Tokenizer tokenizer = new Tokenizer();
-
+		String keyWords[] = {"Corinthians"};
+		
 		int option = -1;
 
-		do
-		{
+		do{
 			System.out.println("Options:\n 1- Twitter Listener\n 2- Tokenizer\n 0- Exit");
 			option = Integer.parseInt(JOptionPane.showInputDialog("Options:\n 1- Twitter Listener\n 2- Tokenizer\n 0- Exit"));
 
 			try {
-				switch(option)
-				{
+				switch(option){
 				case 1 :TwitterListener.createLitener(keyWords, data); System.in.read(); break;
-				case 2 :tokenizer.loadARFF("C:\\Users\\Eduardo\\git\\TccTextMining\\TccTextMining\\dataset\\Tweets_19-08-14.arff");
-						tokenizer.index();
+				case 2 :Tokenizer.loadARFF("dataset\\Tweets_21-08-14.arff");
+						Tokenizer.index();
 						System.in.read();
 						break;
 				}
