@@ -43,6 +43,7 @@ public class Tokenizer {
 			filter.setLowerCaseTokens(true);
 			
 			outputInstances = Filter.useFilter(inputInstances, filter);
+			System.out.println(outputInstances.toSummaryString());
 		}catch(Exception e){
 			System.err.println("== error Tokenizer.index()");
 		}
