@@ -10,6 +10,7 @@ public class MainWindowForm {
 	public String getKeyWords() {
 		return keyWords;
 	}
+	
 	public void setKeyWords(String keyWords) {
 		this.keyWords = keyWords;
 	}
