@@ -6,7 +6,6 @@ public class MainWindowForm {
 	private boolean isOneFilePerRecord = false;
 	private boolean isAllRecordsInOneFile = false;
 	private String path;
-	
 	public String getKeyWords() {
 		return keyWords;
 	}
