@@ -17,4 +17,12 @@ public class Constants {
 	public final static String DATEFORMAT2 = "dd-MM-yy";
 	
 	public final static String ARFFPATH = "dataset";
+	
+	//Types
+	public final static String ARFFTYPE = "arff";
+	public final static String TXTTYPE = "txt";
+	
+	//REGEX
+	public final static String COMMA_REGEX = ",";
+	
 }

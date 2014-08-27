@@ -1,12 +1,9 @@
-package arff;
+package dao.files;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
 import twitter.Tweet;
 import utils.ApplicationUtils;

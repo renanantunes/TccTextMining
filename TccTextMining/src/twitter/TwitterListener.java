@@ -1,7 +1,11 @@
 package twitter;
 
+import java.io.File;
 import java.io.IOException;
 
+import dao.files.ARFFHandler;
+import dao.files.TxtHandler;
+import forms.MainWindowForm;
 import twitter4j.ConnectionLifeCycleListener;
 import twitter4j.FilterQuery;
 import twitter4j.StallWarning;
@@ -14,13 +18,21 @@ import twitter4j.conf.ConfigurationBuilder;
 import utils.ApplicationUtils;
 import utils.Constants;
 import weka.core.Instances;
-import arff.ARFFHandler;
 
 public class TwitterListener {
 	private static TwitterStream twitterStream; //Transformei essa variável em statica para poder verificar se está conectado
 												//Aqui que acho que fica estranho, existe alguma outra maneira de usar essa variavel sem deixar static?
+	private static Instances data = null;
+	private static File file = null;
 	
-	public static void createLitener(String keyWords[], final Instances data){
+	public static void createLitener(final MainWindowForm mwf){
+		
+		if(mwf.getSaveType().equals(Constants.ARFFTYPE)){
+    		data = ARFFHandler.creatARFF();
+		}else if(mwf.getSaveType().equals(Constants.TXTTYPE)){
+			if(mwf.isAllRecordsInOneFile())
+				file = TxtHandler.createTxt(mwf.getPath());
+		}
 		
 		ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
@@ -36,6 +48,8 @@ public class TwitterListener {
             @Override
             public void onStatus(Status status) {
             	
+            	
+            	
             	String formatedDate = ApplicationUtils.createFormatDate(Constants.DATEFORMAT1);
             	
             	Tweet tweet = new Tweet();
@@ -50,7 +64,13 @@ public class TwitterListener {
             	System.out.println(tweet.getTweet());
             	System.out.println(tweet.getDate()+"\n");
             	
-            	ARFFHandler.addDatatoARFF(tweet, data);
+            	if(mwf.getSaveType().equals(Constants.ARFFTYPE))
+            		ARFFHandler.addDatatoARFF(tweet, data);
+            	else if(mwf.getSaveType().equals(Constants.TXTTYPE))
+            		if(mwf.isAllRecordsInOneFile())
+            			TxtHandler.writeIntoFile(file, tweet.getTweet());
+            		else if(mwf.isOneFilePerRecord())
+            			TxtHandler.createAndWriteTxt(tweet.getTweet(), mwf.getPath());
             }
         	
             @Override
@@ -88,7 +108,7 @@ public class TwitterListener {
         FilterQuery fq = new FilterQuery();
 	    String language[] = {"pt"};
 
-	    fq.track(keyWords);
+	    fq.track(mwf.getKeyWords().split(Constants.COMMA_REGEX));
 	    fq.language(language);
 
 	    twitterStream.addListener(listener);
