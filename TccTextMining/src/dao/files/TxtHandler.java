@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -39,6 +40,7 @@ public class TxtHandler {
 		try{
 			if(!file.exists())
 				file.createNewFile();
+			
 		}catch(IOException e){
 			System.err.println("== IOException txtHandler.createTxt");
 		}
@@ -50,8 +52,9 @@ public class TxtHandler {
 	public static File writeIntoFile(File file, String toWrite){
 		
 		try{
-			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
 			BufferedWriter writer = new BufferedWriter(fw);
+			writer.newLine();
 			writer.write(toWrite);
 			writer.close();
 		}catch(IOException e){
@@ -84,7 +87,7 @@ public class TxtHandler {
 		}
 
 		if(exists)
-			num = nums.get(nums.size()-1);
+			num = Collections.max(nums); //nums.get(nums.size()-1);
 		
 		return num;
 			
