@@ -39,6 +39,7 @@ public class TxtHandler {
 		try{
 			if(!file.exists())
 				file.createNewFile();
+			
 		}catch(IOException e){
 			System.err.println("== IOException txtHandler.createTxt");
 		}
@@ -50,8 +51,9 @@ public class TxtHandler {
 	public static File writeIntoFile(File file, String toWrite){
 		
 		try{
-			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
 			BufferedWriter writer = new BufferedWriter(fw);
+			writer.newLine();
 			writer.write(toWrite);
 			writer.close();
 		}catch(IOException e){
