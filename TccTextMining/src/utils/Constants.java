@@ -21,8 +21,12 @@ public class Constants {
 	//Types
 	public final static String ARFFTYPE = "arff";
 	public final static String TXTTYPE = "txt";
+	public final static String STREAMTYPE = "stream";
+	public final static String QUERYTYPE = "query";
 	
 	//REGEX
 	public final static String COMMA_REGEX = ",";
 	
+	//Padrões
+	public final static String[] LANGUAGE = {"pt"};
 }

@@ -25,7 +25,7 @@ public class TwitterListener {
 	private static Instances data = null;
 	private static File file = null;
 	
-	public static void createLitener(final MainWindowForm mwf){
+	public static void createListener(final MainWindowForm mwf){
 		
 		if(mwf.getSaveType().equals(Constants.ARFFTYPE)){
     		data = ARFFHandler.creatARFF();

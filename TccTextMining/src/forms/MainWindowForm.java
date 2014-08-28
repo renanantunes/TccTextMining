@@ -6,6 +6,7 @@ public class MainWindowForm {
 	private boolean isOneFilePerRecord = false;
 	private boolean isAllRecordsInOneFile = false;
 	private String path;
+	private String fetchType;
 	public String getKeyWords() {
 		return keyWords;
 	}
@@ -15,7 +16,7 @@ public class MainWindowForm {
 	public String getSaveType() {
 		return saveType;
 	}
-	public void setSaveTxt(String saveType) {
+	public void setSaveType(String saveType) {
 		this.saveType = saveType;
 	}
 	public boolean isOneFilePerRecord() {
@@ -35,6 +36,12 @@ public class MainWindowForm {
 	}
 	public void setPath(String path) {
 		this.path = path;
+	}
+	public String getFetchType() {
+		return fetchType;
+	}
+	public void setFetchType(String fetchType) {
+		this.fetchType = fetchType;
 	}
 
 	

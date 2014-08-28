@@ -10,6 +10,7 @@ import javax.swing.JOptionPane;
 import dao.files.ARFFHandler;
 import mining.Tokenizer;
 import twitter.TwitterListener;
+import twitter.TwitterQueryManager;
 import utils.Constants;
 import weka.core.Instances;
 
@@ -46,7 +47,19 @@ public class MainClass {
 	public static void initializeWork(MainWindowForm mwf){
 		String keyWords [] = mwf.getKeyWords().split(Constants.COMMA_REGEX);
 		
-		TwitterListener.createLitener(mwf);
+		if(mwf.getFetchType().equals(Constants.STREAMTYPE))
+		{
+			TwitterListener.createListener(mwf);
+		}
+		else
+		{
+			TwitterQueryManager tqm = new TwitterQueryManager(mwf);
+			for(String inQuery: keyWords)
+			{
+				tqm.performQuery(inQuery, 100);
+			}
+		}
+		
 		
 		if(mwf.getSaveType().equals(Constants.ARFFTYPE)){
 			

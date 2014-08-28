@@ -112,23 +112,44 @@ public class MainWindow {
 		panel_1.setLayout(null);
 		
 		JLabel lblArmazenarEm = new JLabel("Armazenar em:");
-		lblArmazenarEm.setBounds(10, 11, 87, 14);
+		lblArmazenarEm.setBounds(10, 33, 87, 14);
 		panel_1.add(lblArmazenarEm);
 
 		
 		final JRadioButton rdbtnarff = new JRadioButton(".arff");
 		rdbtnarff.setEnabled(false);
-		rdbtnarff.setBounds(103, 7, 54, 23);
+		rdbtnarff.setBounds(97, 29, 68, 23);
 		panel_1.add(rdbtnarff);
 		
 		final JRadioButton rdbtntxt = new JRadioButton(".txt");
 		rdbtntxt.setEnabled(false);
-		rdbtntxt.setBounds(162, 7, 54, 23);
+		rdbtntxt.setBounds(162, 29, 60, 23);
 		panel_1.add(rdbtntxt);
 
-		ButtonGroup radioGroup = new ButtonGroup();
-		radioGroup.add(rdbtnarff);
-		radioGroup.add(rdbtntxt);
+		ButtonGroup fileTypeRadioGroup = new ButtonGroup();
+		fileTypeRadioGroup.add(rdbtnarff);
+		fileTypeRadioGroup.add(rdbtntxt);
+		
+		//Tentativa de adicionar tipo de busca ao Layout
+		JLabel lblFetchType = new JLabel("Tipo de Busca:");
+		lblFetchType.setBounds(10, 11, 87, 14);
+		panel_1.add(lblFetchType);
+
+		
+		final JRadioButton rdbStream = new JRadioButton("Stream");
+		rdbStream.setEnabled(false);
+		rdbStream.setBounds(97, 7, 68, 23);
+		panel_1.add(rdbStream);
+		
+		final JRadioButton rdbQuery = new JRadioButton("Query");
+		rdbQuery.setEnabled(false);
+		rdbQuery.setBounds(162, 7, 60, 23);
+		panel_1.add(rdbQuery);
+
+		ButtonGroup searchRadioGroup = new ButtonGroup();
+		searchRadioGroup.add(rdbStream);
+		searchRadioGroup.add(rdbQuery);
+		//Fim da tentativa de adicionar tipo de busca ao Layout
 		
 		JPanel panel_2 = new JPanel();
 		panel_2.setBorder(UIManager.getBorder("TitledBorder.border"));
@@ -184,13 +205,39 @@ public class MainWindow {
 			@Override
 			public void keyTyped(KeyEvent arg0) {
 				if(!textFieldPesquisa.getText().isEmpty()){
-					rdbtnarff.setEnabled(true);
-					rdbtntxt.setEnabled(true);
+					rdbStream.setEnabled(true);
+					rdbQuery.setEnabled(true);
 				}else{
-					rdbtnarff.setEnabled(false);
-					rdbtntxt.setEnabled(false);
+					rdbStream.setEnabled(false);
+					rdbQuery.setEnabled(false);
 				}
 					
+			}
+		});
+		
+		rdbStream.addActionListener(new ActionListener() 
+		{
+			@Override
+			public void actionPerformed(ActionEvent arg0) 
+			{
+				if(rdbStream.isSelected())
+				{
+					rdbtnarff.setEnabled(true);
+					rdbtntxt.setEnabled(true);
+				}
+			}
+		});
+		
+		rdbQuery.addActionListener(new ActionListener() 
+		{
+			@Override
+			public void actionPerformed(ActionEvent arg0) 
+			{
+				if(rdbQuery.isSelected())
+				{
+					rdbtnarff.setEnabled(true);
+					rdbtntxt.setEnabled(true);
+				}
 			}
 		});
 		
@@ -243,17 +290,32 @@ public class MainWindow {
 					MainWindowForm mwf = new MainWindowForm();
 					mwf.setKeyWords(textFieldPesquisa.getText());
 					
-					if(rdbtnarff.isSelected()){
-						mwf.setSaveTxt(Constants.ARFFTYPE);
-					}else{
-						mwf.setSaveTxt(Constants.TXTTYPE);
+					if(rdbtnarff.isSelected())
+					{
+						mwf.setSaveType(Constants.ARFFTYPE);
+					}
+					else
+					{
+						mwf.setSaveType(Constants.TXTTYPE);
 						if(chckbxUmTxtPor.isSelected())
+						{
 							mwf.setOneFilePerRecord(true);
+						}
 						if(chckbxTodosOsRegistros.isSelected())
+						{
 							mwf.setAllRecordsInOneFile(true);
+						}
 						mwf.setPath(textField.getText());
 					}
 					
+					if(rdbQuery.isSelected())
+					{
+						mwf.setFetchType(Constants.QUERYTYPE);
+					}
+					else
+					{
+						mwf.setFetchType(Constants.STREAMTYPE);
+					}
 					
 					if(validateForm(mwf)){
 						MainClass.initializeWork(mwf);
