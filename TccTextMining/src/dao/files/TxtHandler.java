@@ -87,7 +87,7 @@ public class TxtHandler {
 		}
 
 		if(exists)
-			num = Collections.max(nums); //nums.get(nums.size()-1);
+			num = Collections.max(nums);
 		
 		return num;
 			
