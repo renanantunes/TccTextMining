@@ -1,5 +1,7 @@
 package utils;
 
+import java.io.File;
+
 public class Constants {
 
 	//Dao
@@ -26,7 +28,19 @@ public class Constants {
 	
 	//REGEX
 	public final static String COMMA_REGEX = ",";
+	public final static String PIPE_REGEX = "|";
 	
 	//Padrões
 	public final static String[] LANGUAGE = {"pt"};
+	
+	//PATH Classifier
+	public final static String CLASSIFIER_PATH = "classifier"+File.separator+"classifier.txt";
+	public final static String NEGATIVE_PATH = "classifier"+File.separator+"negative"; 
+	public final static String NEUTRAL_PATH = "classifier"+File.separator+"neutral"; 
+	public final static String POSITIVE_PATH = "classifier"+File.separator+"positive"; 
+	
+	//
+	public final static String POSITIVE = "positive";
+	public final static String NEGATIVE = "negative";
+	public final static String NEUTRAL = "neutral";
 }

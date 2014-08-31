@@ -3,6 +3,9 @@ package classifier;
 import java.io.File;
 import java.io.IOException;
 
+import main.MainClass;
+import utils.Constants;
+
 import com.aliasi.classify.ConditionalClassification;
 import com.aliasi.classify.LMClassifier;
 import com.aliasi.lm.LanguageModel;
@@ -14,20 +17,20 @@ public class SentimentClassifier
 	String[] categories;
 	LMClassifier<LanguageModel, MultivariateDistribution> classifier;
 	
-	public SentimentClassifier(String classifierPath)
+	public SentimentClassifier()
 	{
 		try
 		{
-			classifier = (LMClassifier<LanguageModel, MultivariateDistribution>) AbstractExternalizable.readObject(new File(classifierPath));
+			classifier = (LMClassifier<LanguageModel, MultivariateDistribution>) AbstractExternalizable.readObject(new File(Constants.CLASSIFIER_PATH));
 			categories = classifier.categories();
 		}
 		catch (ClassNotFoundException e)
 		{
-			e.printStackTrace();
+			System.err.println("===SentimentClassifier.SentimentClassifier() error: " + e.getMessage());
 		}
 		catch (IOException e) 
 		{
-			e.printStackTrace();
+			System.err.println("===SentimentClassifier.SentimentClassifier() error: " + e.getMessage());
 		} 
 	}
 	
@@ -36,9 +39,9 @@ public class SentimentClassifier
 	 * Agora falta apenas implementar no nosso código, porém não sei se teremos que fazer outra tela ou o que para deixa separado
 	 * classificação e coleta
 	 */
-	public String classify(String text)
+	public void classify(String text)
 	{
 		ConditionalClassification conditionalClassification = classifier.classify(text);
-		return conditionalClassification.bestCategory();
+		MainClass.ratingList.add(conditionalClassification.bestCategory());
 	}
 }

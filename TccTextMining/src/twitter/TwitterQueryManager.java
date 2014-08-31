@@ -3,6 +3,7 @@ package twitter;
 import java.io.File;
 import java.util.List;
 
+import classifier.SentimentClassifier;
 import dao.files.ARFFHandler;
 import dao.files.TxtHandler;
 import forms.MainWindowForm;
@@ -54,11 +55,13 @@ public class TwitterQueryManager
 	public void performQuery(String inQuery, int amount)
 	{
 		Query query = new Query(inQuery);
-		query.setCount(100);
+		query.setCount(amount);
 		query.setLang(Constants.LANGUAGE[0]);
-
+		
 		String formatedDate = ApplicationUtils.createFormatDate(Constants.DATEFORMAT1);
 
+		SentimentClassifier sentimentClassifier = new SentimentClassifier();
+		
 		int count = 0;
 		QueryResult queryResult;
 		try
@@ -83,6 +86,8 @@ public class TwitterQueryManager
 	            	System.out.println(tweet.getTweet());
 	            	System.out.println(tweet.getDate()+"\n");
 					
+	            	sentimentClassifier.classify(tweet.getTweet());
+	            	
 					if(mwf.getSaveType().equals(Constants.ARFFTYPE))
 					{
 	            		ARFFHandler.addDatatoARFF(tweet, data);
