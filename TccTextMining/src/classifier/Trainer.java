@@ -33,6 +33,6 @@ public class Trainer
 				classifier.handle(classified);
 			}
 		}
-		AbstractExternalizable.compileTo(classifier, new File("Train Directory\\classifier.txt"));
+		AbstractExternalizable.compileTo(classifier, new File(dirPath + File.pathSeparator + "classifier.txt"));
 	}
 }
