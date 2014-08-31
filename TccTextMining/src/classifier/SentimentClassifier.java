@@ -23,11 +23,11 @@ public class SentimentClassifier
 		}
 		catch (ClassNotFoundException e)
 		{
-			e.printStackTrace();
+			System.err.println("===SentimentClassifier.SentimentClassifier() error: " + e.getMessage());
 		}
 		catch (IOException e) 
 		{
-			e.printStackTrace();
+			System.err.println("===SentimentClassifier.SentimentClassifier() error: " + e.getMessage());
 		} 
 	}
 	
