@@ -18,21 +18,12 @@ public class Trainer
 	 * Ao usar esse metodo, se passa o path aonde estão as pastas Neg, Pos e Neu, ele avalia toda elas e na pasta informada cria o
 	 * arquivo classifier.txt que é utilizado na classificação.
 	 */
-<<<<<<< HEAD
 	public static boolean train(){
 		
 	boolean done = true;
-=======
-	public static void train(String dirPath)
-	{
->>>>>>> branch 'master' of https://github.com/renanantunes/TccTextMining
 		try 
 		{
-<<<<<<< HEAD
 			File trainDir = new File(Constants.CLASSIFIER_PATH);
-=======
-			File trainDir = new File(dirPath);
->>>>>>> branch 'master' of https://github.com/renanantunes/TccTextMining
 			String[] categories = trainDir.list();
 			int nGram = 7; //Aqui é usado entre 7 e 12, sabe-se lá pq
 			DynamicLMClassifier<NGramProcessLM> classifier = DynamicLMClassifier.createNGramProcess(categories, nGram);
@@ -51,22 +42,12 @@ public class Trainer
 					classifier.handle(classified);
 				}
 			}
-<<<<<<< HEAD
 			AbstractExternalizable.compileTo(classifier, new File(Constants.CLASSIFIER_PATH));
 		} catch (IOException e) 
 		{
 			System.err.println("===Trainer.train() error: " + e.getMessage());
 			done = false;
-=======
-			AbstractExternalizable.compileTo(classifier, new File(dirPath + File.pathSeparator + "classifier.txt"));
-		} catch (IOException e) 
-		{
-			System.err.println("===Trainer.train() error: " + e.getMessage());
->>>>>>> branch 'master' of https://github.com/renanantunes/TccTextMining
 		}
-<<<<<<< HEAD
 		return done;
-=======
->>>>>>> branch 'master' of https://github.com/renanantunes/TccTextMining
 	}
 }
