@@ -21,7 +21,7 @@ public class Tweet {
 		return tweet;
 	}
 	public void setTweet(String tweet) {
-		this.tweet = tweet;
+		this.tweet = tweet.replaceAll("\n", " ");
 	}
 	public String getDate() {
 		return date;
