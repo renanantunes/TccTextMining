@@ -34,6 +34,7 @@ public class Constants {
 	public final static String[] LANGUAGE = {"pt"};
 	
 	//PATH Classifier
+	public final static String PATH = "classifier";
 	public final static String CLASSIFIER_PATH = "classifier"+File.separator+"classifier.txt";
 	public final static String NEGATIVE_PATH = "classifier"+File.separator+"negative"; 
 	public final static String NEUTRAL_PATH = "classifier"+File.separator+"neutral"; 
