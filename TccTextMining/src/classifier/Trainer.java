@@ -23,7 +23,7 @@ public class Trainer
 	boolean done = true;
 		try 
 		{
-			File trainDir = new File(Constants.CLASSIFIER_PATH);
+			File trainDir = new File(Constants.PATH);
 			String[] categories = trainDir.list();
 			int nGram = 7; //Aqui é usado entre 7 e 12, sabe-se lá pq
 			DynamicLMClassifier<NGramProcessLM> classifier = DynamicLMClassifier.createNGramProcess(categories, nGram);

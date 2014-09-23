@@ -3,6 +3,7 @@ package twitter;
 import java.io.File;
 import java.util.List;
 
+import main.MainClass;
 import classifier.SentimentClassifier;
 import dao.files.ARFFHandler;
 import dao.files.TxtHandler;
@@ -86,8 +87,10 @@ public class TwitterQueryManager
 	            	System.out.println(tweet.getTweet());
 	            	System.out.println(tweet.getDate()+"\n");
 					
-	            	sentimentClassifier.classify(tweet.getTweet());
-	            	
+	            	tweet.setRating(sentimentClassifier.classify(tweet.getTweet()));
+	            	MainClass.tweetList.add(tweet);
+	            	//String a =sentimentClassifier.classify(tweet.getTweet());
+	            	//@vivo,@itau,@netatende,@ibm,@tam,@mcdonalds,@bradesco,@santander,@TIMBrasil,@dilmabr,@eduardojorge43,@motorola_BR,@sony,@samsung
 					if(mwf.getSaveType().equals(Constants.ARFFTYPE))
 					{
 	            		ARFFHandler.addDatatoARFF(tweet, data);
@@ -108,7 +111,7 @@ public class TwitterQueryManager
 		}
 		catch(TwitterException e)
 		{
-			System.err.println("== error TwitterQueryManager.performQuery(" + inQuery + "," + amount + ")");
+			System.err.println("== error TwitterQueryManager.performQuery(" + inQuery + "," + amount + ") " + e);
 		}
 	}
 }

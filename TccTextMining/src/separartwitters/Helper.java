@@ -6,15 +6,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import dao.files.TxtHandler;
+import twitter.Tweet;
 import utils.Constants;
 
 public class Helper {
-	public static ArrayList<String> getListFromTxt(File file){
-		ArrayList<String>tweets = new ArrayList<String>();
+	public static ArrayList<Tweet> getListFromTxt(File file){
+		ArrayList<Tweet>tweets = new ArrayList<Tweet>();
 		try {
 			Scanner scanner = new Scanner(file);
 			while(scanner.hasNext()){
-				tweets.add(scanner.nextLine());
+				Tweet tweet = new Tweet();
+				tweet.setTweet(scanner.nextLine());
+				tweets.add(tweet);
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

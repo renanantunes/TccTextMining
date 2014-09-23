@@ -39,9 +39,10 @@ public class SentimentClassifier
 	 * Agora falta apenas implementar no nosso código, porém não sei se teremos que fazer outra tela ou o que para deixa separado
 	 * classificação e coleta
 	 */
-	public void classify(String text)
+	public String classify(String text)
 	{
 		ConditionalClassification conditionalClassification = classifier.classify(text);
-		MainClass.ratingList.add(conditionalClassification.bestCategory());
+		System.out.println(conditionalClassification.bestCategory());
+		return conditionalClassification.bestCategory();
 	}
 }
