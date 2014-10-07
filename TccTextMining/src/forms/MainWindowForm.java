@@ -7,6 +7,7 @@ public class MainWindowForm {
 	private boolean isAllRecordsInOneFile = false;
 	private String path;
 	private String fetchType;
+	private int quantity;
 	public String getKeyWords() {
 		return keyWords;
 	}
@@ -42,6 +43,12 @@ public class MainWindowForm {
 	}
 	public void setFetchType(String fetchType) {
 		this.fetchType = fetchType;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 	

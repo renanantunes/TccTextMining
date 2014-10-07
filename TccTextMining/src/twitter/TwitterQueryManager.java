@@ -87,10 +87,9 @@ public class TwitterQueryManager
 	            	System.out.println(tweet.getTweet());
 	            	System.out.println(tweet.getDate()+"\n");
 					
-	            	tweet.setRating(sentimentClassifier.classify(tweet.getTweet()));
+	            	//tweet.setRating(sentimentClassifier.classify(tweet.getTweet()));
+	            	tweet.setRating(sentimentClassifier.openNlpClassify(tweet.getTweet()));
 	            	MainClass.tweetList.add(tweet);
-	            	//String a =sentimentClassifier.classify(tweet.getTweet());
-	            	//@vivo,@itau,@netatende,@ibm,@tam,@mcdonalds,@bradesco,@santander,@TIMBrasil,@dilmabr,@eduardojorge43,@motorola_BR,@sony,@samsung
 					if(mwf.getSaveType().equals(Constants.ARFFTYPE))
 					{
 	            		ARFFHandler.addDatatoARFF(tweet, data);

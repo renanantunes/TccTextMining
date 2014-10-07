@@ -35,7 +35,7 @@ public class MainClass {
 			TwitterQueryManager tqm = new TwitterQueryManager(mwf);
 			for(String inQuery: keyWords)
 			{
-				tqm.performQuery(inQuery, 10);
+				tqm.performQuery(inQuery, mwf.getQuantity());
 			}
 		}
 		

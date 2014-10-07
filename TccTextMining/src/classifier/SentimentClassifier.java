@@ -1,32 +1,31 @@
 package classifier;
 
-import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
-import main.MainClass;
-import utils.Constants;
+import opennlp.tools.doccat.DoccatModel;
+import opennlp.tools.doccat.DocumentCategorizerME;
 
 import com.aliasi.classify.ConditionalClassification;
 import com.aliasi.classify.LMClassifier;
 import com.aliasi.lm.LanguageModel;
 import com.aliasi.stats.MultivariateDistribution;
-import com.aliasi.util.AbstractExternalizable;
 
 public class SentimentClassifier 
 {
 	String[] categories;
 	LMClassifier<LanguageModel, MultivariateDistribution> classifier;
+	static DoccatModel m = null;
 	
 	public SentimentClassifier()
 	{
 		try
 		{
-			classifier = (LMClassifier<LanguageModel, MultivariateDistribution>) AbstractExternalizable.readObject(new File(Constants.CLASSIFIER_PATH));
-			categories = classifier.categories();
-		}
-		catch (ClassNotFoundException e)
-		{
-			System.err.println("===SentimentClassifier.SentimentClassifier() error: " + e.getMessage());
+//			classifier = (LMClassifier<LanguageModel, MultivariateDistribution>) AbstractExternalizable.readObject(new File(Constants.CLASSIFIER_PATH));
+//			categories = classifier.categories();
+			InputStream is = new FileInputStream("teste.bin");		
+			m = new DoccatModel(is);
 		}
 		catch (IOException e) 
 		{
@@ -44,5 +43,12 @@ public class SentimentClassifier
 		ConditionalClassification conditionalClassification = classifier.classify(text);
 		System.out.println(conditionalClassification.bestCategory());
 		return conditionalClassification.bestCategory();
+	}
+	
+	public String openNlpClassify(String inputText){
+		DocumentCategorizerME myCategorizer = new DocumentCategorizerME(m);
+		double[] outcomes = myCategorizer.categorize(inputText);
+		String category = myCategorizer.getBestCategory(outcomes);
+		return category;
 	}
 }

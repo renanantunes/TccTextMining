@@ -92,5 +92,60 @@ public class TxtHandler {
 		return num;
 			
 	}
+	
+//	public static void newMethodToTrainTheOpenNLPClassifier(){
+//		File folder = new File("classifier\\neutral");
+//		File file = new File("classifier\\tweet-neu.txt");
+//		BufferedWriter writer = null;
+//		FileWriter fw=null;
+//		ArrayList<String> list = new ArrayList<String>();
+//		String s = "";
+//		try {
+//			fw = new FileWriter(file, true);
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		for (final File fileEntry : folder.listFiles()) {
+//	        if (fileEntry.isDirectory()) {
+//	        	//newMethodToTrainTheOpenNLPClassifier(fileEntry);
+//	        } else {
+//	        	try {
+//					BufferedReader br = new BufferedReader(new FileReader(fileEntry));
+//					//System.out.println(br.readLine());
+//					list.add(br.readLine());
+////					writer = new BufferedWriter(new FileWriter(file),);
+////					writer.write("negative "+br.readLine());
+////					writer.newLine();
+//					
+//					
+//				} catch (FileNotFoundException e) {
+//					e.printStackTrace();
+//				} catch (IOException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//	        }
+//	    }
+//		
+//		try {
+//			for (String string : list) {
+//				s += "neutral "+string+"\n";
+//				
+//			}
+//			writer = new BufferedWriter(fw);
+//			
+//			writer.write(s);
+//			writer.newLine();
+//			writer.close();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
+//	
+//	public static void main(String[] args) {
+//		newMethodToTrainTheOpenNLPClassifier();
+//	}
 
 }

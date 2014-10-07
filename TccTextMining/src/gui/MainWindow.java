@@ -72,7 +72,7 @@ public class MainWindow {
 		btnNewButton_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
-				if(Trainer.train()){
+				if(Trainer.openNPLTrain()){
 					JOptionPane.showMessageDialog(null, "Finalizado!", "Finalizado", JOptionPane.INFORMATION_MESSAGE);
 				}else{
 					JOptionPane.showMessageDialog(null, "Erro ao treinar o Classifier!", "Erro", JOptionPane.ERROR_MESSAGE);

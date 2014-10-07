@@ -1,57 +1,35 @@
 package gui;
 
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-
-import java.awt.FlowLayout;
-
-import javax.swing.JPanel;
-import javax.swing.border.BevelBorder;
-import javax.swing.border.LineBorder;
-
-import java.awt.Color;
-
-import javax.swing.border.SoftBevelBorder;
-import javax.swing.border.EmptyBorder;
-import javax.swing.ButtonGroup;
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JTabbedPane;
-import javax.swing.UIManager;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-import javax.swing.JRadioButton;
-import javax.swing.JCheckBox;
-import javax.swing.JButton;
-
-import utils.Constants;
-import main.MainClass;
-
-import com.google.gwt.user.client.rpc.IsSerializable;
-
-import forms.MainWindowForm;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeEvent;
-import java.util.HashMap;
-import java.util.Map;
-import java.awt.event.InputMethodListener;
-import java.awt.event.InputMethodEvent;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.UIManager;
+
+import main.MainClass;
+import utils.Constants;
+import forms.MainWindowForm;
 
 public class Coletar {
 
 	private JFrame frame;
 	private JTextField textFieldPesquisa;
 	private JTextField textField;
+	private JTextField textQuantidade;
 
 	/**
 	 * Launch the application.
@@ -167,6 +145,17 @@ public class Coletar {
 		chckbxTodosOsRegistros.setBounds(6, 29, 200, 23);
 		panel_2.add(chckbxTodosOsRegistros);
 		
+		final JLabel labelQuantidade = new JLabel("Quantidade:");
+		labelQuantidade.setEnabled(false);
+		labelQuantidade.setBounds(10, 56, 87, 14);
+		panel_1.add(labelQuantidade);
+		
+		textQuantidade = new JTextField();
+		textQuantidade.setEnabled(false);
+		textQuantidade.setBounds(97, 53, 48, 20);
+		panel_1.add(textQuantidade);
+		textQuantidade.setColumns(10);
+		
 
 		
 		JPanel panel_3 = new JPanel();
@@ -224,6 +213,8 @@ public class Coletar {
 				{
 					rdbtnarff.setEnabled(true);
 					rdbtntxt.setEnabled(true);
+					labelQuantidade.setEnabled(false);
+					textQuantidade.setEnabled(false);
 				}
 			}
 		});
@@ -237,6 +228,8 @@ public class Coletar {
 				{
 					rdbtnarff.setEnabled(true);
 					rdbtntxt.setEnabled(true);
+					labelQuantidade.setEnabled(true);
+					textQuantidade.setEnabled(true);
 				}
 			}
 		});
@@ -311,6 +304,7 @@ public class Coletar {
 					if(rdbQuery.isSelected())
 					{
 						mwf.setFetchType(Constants.QUERYTYPE);
+						mwf.setQuantity(Integer.parseInt(textQuantidade.getText()));
 					}
 					else
 					{
@@ -338,5 +332,4 @@ public class Coletar {
 		}
 		return true;
 	}
-	
 }
